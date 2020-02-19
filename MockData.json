@@ -1,0 +1,439 @@
+{
+    "droneStation": {
+        "name": "Drone Station Test Cases",
+        "topic": "/dockingStation/test",
+	"interval":9000,
+        "testcases": [
+            {
+                "description": "This is Drone Station Main Log",
+                "dronestationId": 3,
+                "eventDateTime": "18/02/2020, 14:05:26",
+                "eventType": "HEALTH_STATUS_CHANGED",
+                "id": 1,
+                "previousHealthStatus": "FAULT_CONDITION",
+                "previousNextPMDate": "2019-02-10T06:16:25.404Z",
+                "updatedHealthStatus": "CORRECTIVE_MAINTENANCE",
+                "updatedNextPMDate": "2019-02-10T06:16:25.404Z"
+            },
+            {
+                "description": "This is Drone Station Main Log",
+                "dronestationId": 2,
+                "eventDateTime": "18/02/2020, 14:05:27",
+                "eventType": "NEXT_PM_DATE_CHANGED",
+                "id": 2,
+                "previousHealthStatus": "CORRECTIVE_MAINTENANCE",
+                "previousNextPMDate": "2019-02-10T06:16:25.404Z",
+                "updatedHealthStatus": "CORRECTIVE_MAINTENANCE",
+                "updatedNextPMDate": "2020-02-06T16:45:52.192Z"
+            },
+            {
+                "description": "This is Drone Station Main Log",
+                "dronestationId": 2,
+                "eventDateTime": "18/02/2020, 14:05:28",
+                "eventType": "HEALTH_STATUS_CHANGED",
+                "id": 3,
+                "previousHealthStatus": "CORRECTIVE_MAINTENANCE",
+                "previousNextPMDate": "2020-02-06T16:45:52.192Z",
+                "updatedHealthStatus": "PREVENTIVE_MAINTENANCE",
+                "updatedNextPMDate": "2020-02-06T16:45:52.192Z"
+            },
+            {
+                "description": "This is Drone Station Main Log",
+                "dronestationId": 1,
+                "eventDateTime": "18/02/2020, 14:05:29",
+                "eventType": "HEALTH_STATUS_CHANGED",
+                "id": 4,
+                "previousHealthStatus": "PREVENTIVE_MAINTENANCE",
+                "previousNextPMDate": "2020-02-06T16:45:52.192Z",
+                "updatedHealthStatus": "GOOD_CONDITION",
+                "updatedNextPMDate": "2020-02-06T16:45:52.192Z"
+            },
+            {
+                "description": "This is Drone Station Main Log",
+                "dronestationId": 3,
+                "eventDateTime": "18/02/2020, 14:07:22",
+                "eventType": "HEALTH_STATUS_CHANGED",
+                "id": 5,
+                "previousHealthStatus": "CORRECTIVE_MAINTENANCE",
+                "previousNextPMDate": "2019-02-10T06:16:25.404Z",
+                "updatedHealthStatus": "GOOD_CONDITION",
+                "updatedNextPMDate": "2019-02-10T06:16:25.404Z"
+            },
+            {
+                "description": "This is Drone Station Main Log",
+                "dronestationId": 4,
+                "eventDateTime": "18/02/2020, 14:07:23",
+                "eventType": "NEXT_PM_DATE_CHANGED",
+                "id": 6,
+                "previousHealthStatus": "CORRECTIVE_MAINTENANCE",
+                "previousNextPMDate": "2020-02-06T16:45:52.192Z",
+                "updatedHealthStatus": "CORRECTIVE_MAINTENANCE",
+                "updatedNextPMDate": "2020-03-06T16:45:52.192Z"
+            },
+            {
+                "description": "This is Drone Station Main Log",
+                "dronestationId": 2,
+                "eventDateTime": "18/02/2020, 14:07:24",
+                "eventType": "HEALTH_STATUS_CHANGED",
+                "id": 7,
+                "previousHealthStatus": "PREVENTIVE_MAINTENANCE",
+                "previousNextPMDate": "2020-02-06T16:45:52.192Z",
+                "updatedHealthStatus": "CORRECTIVE_MAINTENANCE",
+                "updatedNextPMDate": "2020-02-06T16:45:52.192Z"
+            },
+            {
+                "description": "This is Drone Station Main Log",
+                "dronestationId": 2,
+                "eventDateTime": "18/02/2020, 14:07:25",
+                "eventType": "NEXT_PM_DATE_CHANGED",
+                "id": 8,
+                "previousHealthStatus": "PREVENTIVE_MAINTENANCE",
+                "previousNextPMDate": "2020-02-06T16:45:52.192Z",
+                "updatedHealthStatus": "PREVENTIVE_MAINTENANCE",
+                "updatedNextPMDate": "2020-04-06T16:45:52.192Z"
+            },
+            {
+                "description": "This is Drone Station Main Log",
+                "dronestationId": 3,
+                "eventDateTime": "18/02/2020, 14:07:26",
+                "eventType": "HEALTH_STATUS_CHANGED",
+                "id": 9,
+                "previousHealthStatus": "GOOD_CONDITION",
+                "previousNextPMDate": "2019-02-10T06:16:25.404Z",
+                "updatedHealthStatus": "PREVENTIVE_MAINTENANCE",
+                "updatedNextPMDate": "2019-02-10T06:16:25.404Z"
+            }
+        ]
+    },
+    "drone": {
+        "name": "Drone Test Cases",
+        "topic": "/drone/test",
+	"interval":10000,
+        "testcases": [
+            {
+                "droneId": 1234,
+                "description": " THis is drone maintenace Log description",
+                "eventDateTime": "18/02/2020, 14:00:54",
+                "eventType": "NEXT_PM_DATE_CHANGED",
+                "id": 1,
+                "previousHealthStatus": "CORRECTIVE_MAINTENANCE",
+                "previousNextPMDate": "2019-06-01T20:49:37.007Z",
+                "updatedHealthStatus": "CORRECTIVE_MAINTENANCE",
+                "updatedNextPMDate": "2020-02-10T04:27:19.311Z"
+            },
+            {
+                "droneId": 1234,
+                "description": " THis is drone maintenace Log description",
+                "eventDateTime": "18/02/2020, 14:00:55",
+                "eventType": "HEALTH_STATUS_CHANGED",
+                "id": 2,
+                "previousHealthStatus": "CORRECTIVE_MAINTENANCE",
+                "previousNextPMDate": "2020-02-10T04:27:19.311Z",
+                "updatedHealthStatus": "FAULT_CONDITION",
+                "updatedNextPMDate": "2020-02-10T04:27:19.311Z"
+            },
+            {
+                "droneId": 1234,
+                "description": " THis is drone maintenace Log description",
+                "eventDateTime": "18/02/2020, 14:00:56",
+                "eventType": "NEXT_PM_DATE_CHANGED",
+                "id": 3,
+                "previousHealthStatus": "FAULT_CONDITION",
+                "previousNextPMDate": "2020-02-10T04:27:19.311Z",
+                "updatedHealthStatus": "FAULT_CONDITION",
+                "updatedNextPMDate": "2020-03-10T04:27:19.311Z"
+            },
+            {
+                "droneId": 1234,
+                "description": " THis is drone maintenace Log description",
+                "eventDateTime": "18/02/2020, 14:00:57",
+                "eventType": "HEALTH_STATUS_CHANGED",
+                "id": 4,
+                "previousHealthStatus": "FAULT_CONDITION",
+                "previousNextPMDate": "2020-03-10T04:27:19.311Z",
+                "updatedHealthStatus": "PREVENTIVE_MAINTENANCE",
+                "updatedNextPMDate": "2020-03-10T04:27:19.311Z"
+            },
+            {
+                "droneId": 1234,
+                "description": " THis is drone maintenace Log description",
+                "eventDateTime": "18/02/2020, 14:00:58",
+                "eventType": "NEXT_PM_DATE_CHANGED",
+                "id": 5,
+                "previousHealthStatus": "PREVENTIVE_MAINTENANCE",
+                "previousNextPMDate": "2020-03-10T04:27:19.311Z",
+                "updatedHealthStatus": "PREVENTIVE_MAINTENANCE",
+                "updatedNextPMDate": "2020-04-10T04:27:19.311Z"
+            },
+            {
+                "droneId": 1234,
+                "description": " THis is drone maintenace Log description",
+                "eventDateTime": "18/02/2020, 14:03:37",
+                "eventType": "NEXT_PM_DATE_CHANGED",
+                "id": 6,
+                "previousHealthStatus": "PREVENTIVE_MAINTENANCE",
+                "previousNextPMDate": "2020-04-10T04:27:19.311Z",
+                "updatedHealthStatus": "PREVENTIVE_MAINTENANCE",
+                "updatedNextPMDate": "2020-05-10T04:27:19.311Z"
+            },
+            {
+                "droneId": 1234,
+                "description": " THis is drone maintenace Log description",
+                "eventDateTime": "18/02/2020, 14:03:38",
+                "eventType": "NEXT_PM_DATE_CHANGED",
+                "id": 7,
+                "previousHealthStatus": "PREVENTIVE_MAINTENANCE",
+                "previousNextPMDate": "2020-05-10T04:27:19.311Z",
+                "updatedHealthStatus": "PREVENTIVE_MAINTENANCE",
+                "updatedNextPMDate": "2020-06-10T04:27:19.311Z"
+            },
+            {
+                "droneId": 1234,
+                "description": " THis is drone maintenace Log description",
+                "eventDateTime": "18/02/2020, 14:03:39",
+                "eventType": "NEXT_PM_DATE_CHANGED",
+                "id": 8,
+                "previousHealthStatus": "PREVENTIVE_MAINTENANCE",
+                "previousNextPMDate": "2020-06-10T04:27:19.311Z",
+                "updatedHealthStatus": "PREVENTIVE_MAINTENANCE",
+                "updatedNextPMDate": "2020-07-10T04:27:19.311Z"
+            },
+            {
+                "droneId": 1234,
+                "description": " THis is drone maintenace Log description",
+                "eventDateTime": "18/02/2020, 14:03:40",
+                "eventType": "HEALTH_STATUS_CHANGED",
+                "id": 9,
+                "previousHealthStatus": "PREVENTIVE_MAINTENANCE",
+                "previousNextPMDate": "2020-07-10T04:27:19.311Z",
+                "updatedHealthStatus": "CORRECTIVE_MAINTENANCE",
+                "updatedNextPMDate": "2020-07-10T04:27:19.311Z"
+            },
+            {
+                "droneId": 1234,
+                "description": " THis is drone maintenace Log description",
+                "eventDateTime": "18/02/2020, 14:03:41",
+                "eventType": "HEALTH_STATUS_CHANGED",
+                "id": 10,
+                "previousHealthStatus": "PREVENTIVE_MAINTENANCE",
+                "previousNextPMDate": "2020-07-10T04:27:19.311Z",
+                "updatedHealthStatus": "CORRECTIVE_MAINTENANCE",
+                "updatedNextPMDate": "2020-07-10T04:27:19.311Z"
+            }
+        ]
+    },
+    "leakage": {
+        "name": "Leakage Test Cases",
+        "topic": "/leakage/test",
+	"interval":10000,
+        "testcase": [
+            {
+                "id": 1,
+                "flightMissionId": 1111,
+                "leakageTime": "2019-02-27T21:30:03.168Z",
+                "altitude": 644,
+                "leakageVideoClip": "This is the VideoClip",
+                "status": "ALL_CLEAR",
+                "lat": 1.266053,
+                "lng": 103.672361
+            },
+            {
+                "id": 2,
+                "flightMissionId": 1111,
+                "leakageTime": "2019-12-06T12:19:23.526Z",
+                "altitude": 837,
+                "leakageVideoClip": "This is the VideoClip",
+                "status": "LEAKAGE_CONFIRMED",
+                "lat": 1.266289,
+                "lng": 103.677563
+            },
+            {
+                "id": 3,
+                "flightMissionId": 1111,
+                "leakageTime": "2019-11-09T10:02:50.311Z",
+                "altitude": 454,
+                "leakageVideoClip": "This is the VideoClip",
+                "status": "LEAKAGE_DETECTED",
+                "lat": 1.272977,
+                "lng": 103.683714
+            },
+            {
+                "id": 4,
+                "flightMissionId": 1111,
+                "leakageTime": "2020-01-04T02:02:06.064Z",
+                "altitude": 405,
+                "leakageVideoClip": "This is the VideoClip",
+                "status": "LEAKAGE_DETECTED",
+                "lat": 1.264498,
+                "lng": 103.673412
+            },
+            {
+                "id": 5,
+                "flightMissionId": 1111,
+                "leakageTime": "2019-03-04T04:01:17.080Z",
+                "altitude": 133,
+                "leakageVideoClip": "This is the VideoClip",
+                "status": "ALL_CLEAR",
+                "lat": 1.264498,
+                "lng": 103.673412
+            },
+            {
+                "id": 6,
+                "flightMissionId": 1111,
+                "leakageTime": "2019-04-18T23:27:47.557Z",
+                "altitude": 941,
+                "leakageVideoClip": "This is the VideoClip",
+                "status": "REPAIR_IN_PROGRESS",
+                "lat": 1.265066,
+                "lng": 103.673058
+            },
+            {
+                "id": 7,
+                "flightMissionId": 1111,
+                "leakageTime": "2019-06-07T20:51:20.760Z",
+                "altitude": 685,
+                "leakageVideoClip": "This is the VideoClip",
+                "status": "LEAKAGE_CONFIRMED",
+                "lat": 1.265066,
+                "lng": 103.673058
+            },
+            {
+                "id": 8,
+                "flightMissionId": 1111,
+                "leakageTime": "2019-05-06T11:10:10.060Z",
+                "altitude": 358,
+                "leakageVideoClip": "This is the VideoClip",
+                "status": "REPAIR_IN_PROGRESS",
+                "lat": 1.266289,
+                "lng": 103.677563
+            },
+            {
+                "id": 9,
+                "flightMissionId": 1111,
+                "leakageTime": "2019-10-13T11:49:49.614Z",
+                "altitude": 831,
+                "leakageVideoClip": "This is the VideoClip",
+                "status": "LEAKAGE_CONFIRMED",
+                "lat": 1.272977,
+                "lng": 103.683714
+            },
+            {
+                "id": 10,
+                "flightMissionId": 1111,
+                "leakageTime": "2019-09-17T18:01:15.674Z",
+                "altitude": 482,
+                "leakageVideoClip": "This is the VideoClip",
+                "status": "LEAKAGE_DETECTED",
+                "lat": 1.266053,
+                "lng": 103.672361
+            }
+        ]
+    },
+    "flightPath": {
+        "name": "Flight Path Test Case",
+        "topic": "/flight/path/test",
+	"interval":10000,
+        "testcases": [
+            {
+                "details": "This is a detail",
+                "id": 1,
+                "lockEndOn": "18/02/2020, 14:41:28",
+                "lockStartOn": "18/02/2020, 14:41:28",
+                "status": "NORMAL",
+                "toDroneStationId": 2,
+                "versionTimestamp": "18/02/2020, 14:41:28",
+                "fromdroneStationId": 1
+            },
+            {
+                "details": "This is a detail",
+                "id": 2,
+                "lockEndOn": "18/02/2020, 14:41:29",
+                "lockStartOn": "18/02/2020, 14:41:29",
+                "status": "LOCKED",
+                "toDroneStationId": 3,
+                "versionTimestamp": "18/02/2020, 14:41:29",
+                "fromdroneStationId": 2
+            },
+            {
+                "details": "This is a detail",
+                "id": 3,
+                "lockEndOn": "18/02/2020, 14:41:30",
+                "lockStartOn": "18/02/2020, 14:41:30",
+                "status": "NORMAL",
+                "toDroneStationId": 4,
+                "versionTimestamp": "18/02/2020, 14:41:30",
+                "fromdroneStationId": 3
+            },
+            {
+                "details": "This is a detail",
+                "id": 4,
+                "lockEndOn": "18/02/2020, 14:41:31",
+                "lockStartOn": "18/02/2020, 14:41:31",
+                "status": "LOCKED",
+                "toDroneStationId": 5,
+                "versionTimestamp": "18/02/2020, 14:41:31",
+                "fromdroneStationId": 4
+            },
+            {
+                "details": "This is a detail",
+                "id": 5,
+                "lockEndOn": "18/02/2020, 14:41:32",
+                "lockStartOn": "18/02/2020, 14:41:32",
+                "status": "NORMAL",
+                "toDroneStationId": 1,
+                "versionTimestamp": "18/02/2020, 14:41:32",
+                "fromdroneStationId": 5
+            },
+            {
+                "details": "This is a detail",
+                "id": 6,
+                "lockEndOn": "18/02/2020, 14:44:06",
+                "lockStartOn": "18/02/2020, 14:44:06",
+                "status": "LOCKED",
+                "toDroneStationId": 2,
+                "versionTimestamp": "18/02/2020, 14:44:06",
+                "fromdroneStationId": 1
+            },
+            {
+                "details": "This is a detail",
+                "id": 7,
+                "lockEndOn": "18/02/2020, 14:44:07",
+                "lockStartOn": "18/02/2020, 14:44:07",
+                "status": "LOCKED",
+                "toDroneStationId": 3,
+                "versionTimestamp": "18/02/2020, 14:44:07",
+                "fromdroneStationId": 2
+            },
+            {
+                "details": "This is a detail",
+                "id": 8,
+                "lockEndOn": "18/02/2020, 14:44:08",
+                "lockStartOn": "18/02/2020, 14:44:08",
+                "status": "LOCKED",
+                "toDroneStationId": 4,
+                "versionTimestamp": "18/02/2020, 14:44:08",
+                "fromdroneStationId": 3
+            },
+            {
+                "details": "This is a detail",
+                "id": 9,
+                "lockEndOn": "18/02/2020, 14:44:09",
+                "lockStartOn": "18/02/2020, 14:44:09",
+                "status": "LOCKED",
+                "toDroneStationId": 5,
+                "versionTimestamp": "18/02/2020, 14:44:09",
+                "fromdroneStationId": 4
+            },
+            {
+                "details": "This is a detail",
+                "id": 10,
+                "lockEndOn": "18/02/2020, 14:44:10",
+                "lockStartOn": "18/02/2020, 14:44:10",
+                "status": "LOCKED",
+                "toDroneStationId": 1,
+                "versionTimestamp": "18/02/2020, 14:44:10",
+                "fromdroneStationId": 5
+            }
+        ]
+    }
+}
