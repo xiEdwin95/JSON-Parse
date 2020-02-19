@@ -23,13 +23,42 @@ function publishFunction(topic, subscribeFunction, log, time) {
     let timer = setInterval(() => {
         client.publish(topic, JSON.stringify(subscribeFunction[counter]));
         console.log(subscribeFunction[counter]);
+        let progressed = Math.floor(((counter+1)/subscribeFunction.length)*100)
+
+        $("#moving-progress-bar")
+ 
+      .css("width", progressed + "%")
+ 
+      .attr("aria-valuenow", progressed)
+ 
+      .text("Publishing "+progressed + "% progress");
             counter++;
         if (counter == subscribeFunction.length) {
             clearInterval(timer);
             console.log("MQTT Broadcasting " + log + " Completed");
-            alert("MQTT Broadcasting " + log + " Completed");
         }
     }, time);
+}
+
+
+function progress(current){
+    var progressed = current*10;
+ 
+    var interval = setInterval(function() {
+   
+        $("#moving-progress-bar")
+   
+        .css("width", progressed + "%")
+   
+        .attr("aria-valuenow", progressed)
+   
+        .text(progressed + "% progress");
+   
+        if (progressed >= 100)
+   
+            clearInterval(interval);
+   
+    }, 1000);
 }
 
 function handleFiles(event){
