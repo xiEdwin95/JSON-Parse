@@ -6,7 +6,7 @@
         "testcases": [
             {
                 "description": "This is Drone Station Main Log",
-                "dronestationId": 3,
+                "droneStationId": 3,
                 "eventDateTime": "18/02/2020, 14:05:26",
                 "eventType": "HEALTH_STATUS_CHANGED",
                 "id": 1,
@@ -17,7 +17,7 @@
             },
             {
                 "description": "This is Drone Station Main Log",
-                "dronestationId": 2,
+                "droneStationId": 2,
                 "eventDateTime": "18/02/2020, 14:05:27",
                 "eventType": "NEXT_PM_DATE_CHANGED",
                 "id": 2,
@@ -28,7 +28,7 @@
             },
             {
                 "description": "This is Drone Station Main Log",
-                "dronestationId": 2,
+                "droneStationId": 2,
                 "eventDateTime": "18/02/2020, 14:05:28",
                 "eventType": "HEALTH_STATUS_CHANGED",
                 "id": 3,
@@ -39,7 +39,7 @@
             },
             {
                 "description": "This is Drone Station Main Log",
-                "dronestationId": 1,
+                "droneStationId": 1,
                 "eventDateTime": "18/02/2020, 14:05:29",
                 "eventType": "HEALTH_STATUS_CHANGED",
                 "id": 4,
@@ -50,7 +50,7 @@
             },
             {
                 "description": "This is Drone Station Main Log",
-                "dronestationId": 3,
+                "droneStationId": 3,
                 "eventDateTime": "18/02/2020, 14:07:22",
                 "eventType": "HEALTH_STATUS_CHANGED",
                 "id": 5,
@@ -61,7 +61,7 @@
             },
             {
                 "description": "This is Drone Station Main Log",
-                "dronestationId": 4,
+                "droneStationId": 4,
                 "eventDateTime": "18/02/2020, 14:07:23",
                 "eventType": "NEXT_PM_DATE_CHANGED",
                 "id": 6,
@@ -72,7 +72,7 @@
             },
             {
                 "description": "This is Drone Station Main Log",
-                "dronestationId": 2,
+                "droneStationId": 2,
                 "eventDateTime": "18/02/2020, 14:07:24",
                 "eventType": "HEALTH_STATUS_CHANGED",
                 "id": 7,
@@ -83,7 +83,7 @@
             },
             {
                 "description": "This is Drone Station Main Log",
-                "dronestationId": 2,
+                "droneStationId": 2,
                 "eventDateTime": "18/02/2020, 14:07:25",
                 "eventType": "NEXT_PM_DATE_CHANGED",
                 "id": 8,
@@ -94,7 +94,7 @@
             },
             {
                 "description": "This is Drone Station Main Log",
-                "dronestationId": 3,
+                "droneStationId": 3,
                 "eventDateTime": "18/02/2020, 14:07:26",
                 "eventType": "HEALTH_STATUS_CHANGED",
                 "id": 9,
@@ -228,7 +228,7 @@
 	    "interval":1000,
         "testcases": [
             {
-                "id": 1,
+                "id": 0,
                 "flightMissionId": 1111,
                 "leakageTime": "2019-02-27T21:30:03.168Z",
                 "altitude": 644,
@@ -238,7 +238,7 @@
                 "lng": 103.672361
             },
             {
-                "id": 2,
+                "id": 1,
                 "flightMissionId": 1111,
                 "leakageTime": "2019-12-06T12:19:23.526Z",
                 "altitude": 837,
@@ -248,7 +248,7 @@
                 "lng": 103.677563
             },
             {
-                "id": 3,
+                "id": 2,
                 "flightMissionId": 1111,
                 "leakageTime": "2019-11-09T10:02:50.311Z",
                 "altitude": 454,
@@ -257,8 +257,9 @@
                 "lat": 1.272977,
                 "lng": 103.683714
             },
+
             {
-                "id": 4,
+                "id": 3,
                 "flightMissionId": 1111,
                 "leakageTime": "2020-01-04T02:02:06.064Z",
                 "altitude": 405,
@@ -268,7 +269,7 @@
                 "lng": 103.673412
             },
             {
-                "id": 5,
+                "id": 3,
                 "flightMissionId": 1111,
                 "leakageTime": "2019-03-04T04:01:17.080Z",
                 "altitude": 133,
@@ -278,7 +279,7 @@
                 "lng": 103.673412
             },
             {
-                "id": 6,
+                "id": 4,
                 "flightMissionId": 1111,
                 "leakageTime": "2019-04-18T23:27:47.557Z",
                 "altitude": 941,
@@ -288,7 +289,7 @@
                 "lng": 103.673058
             },
             {
-                "id": 7,
+                "id": 4,
                 "flightMissionId": 1111,
                 "leakageTime": "2019-06-07T20:51:20.760Z",
                 "altitude": 685,
@@ -298,7 +299,7 @@
                 "lng": 103.673058
             },
             {
-                "id": 8,
+                "id": 1,
                 "flightMissionId": 1111,
                 "leakageTime": "2019-05-06T11:10:10.060Z",
                 "altitude": 358,
@@ -308,7 +309,7 @@
                 "lng": 103.677563
             },
             {
-                "id": 9,
+                "id": 2,
                 "flightMissionId": 1111,
                 "leakageTime": "2019-10-13T11:49:49.614Z",
                 "altitude": 831,
@@ -318,7 +319,7 @@
                 "lng": 103.683714
             },
             {
-                "id": 10,
+                "id": 0,
                 "flightMissionId": 1111,
                 "leakageTime": "2019-09-17T18:01:15.674Z",
                 "altitude": 482,
@@ -340,7 +341,7 @@
                 "lockEndOn": "18/02/2020, 14:41:28",
                 "lockStartOn": "18/02/2020, 14:41:28",
                 "status": "NORMAL",
-                "toDroneStationId": 1,
+                "todroneStationId": 1,
                 "versionTimestamp": "18/02/2020, 14:41:28",
                 "fromdroneStationId": 0
             },
@@ -350,7 +351,7 @@
                 "lockEndOn": "18/02/2020, 14:41:29",
                 "lockStartOn": "18/02/2020, 14:41:29",
                 "status": "LOCKED",
-                "toDroneStationId": 2,
+                "todroneStationId": 2,
                 "versionTimestamp": "18/02/2020, 14:41:29",
                 "fromdroneStationId": 1
             },
@@ -360,7 +361,7 @@
                 "lockEndOn": "18/02/2020, 14:41:30",
                 "lockStartOn": "18/02/2020, 14:41:30",
                 "status": "NORMAL",
-                "toDroneStationId": 3,
+                "todroneStationId": 3,
                 "versionTimestamp": "18/02/2020, 14:41:30",
                 "fromdroneStationId": 2
             },
@@ -370,7 +371,7 @@
                 "lockEndOn": "18/02/2020, 14:41:31",
                 "lockStartOn": "18/02/2020, 14:41:31",
                 "status": "LOCKED",
-                "toDroneStationId": 4,
+                "todroneStationId": 4,
                 "versionTimestamp": "18/02/2020, 14:41:31",
                 "fromdroneStationId": 3
             },
@@ -380,7 +381,7 @@
                 "lockEndOn": "18/02/2020, 14:41:32",
                 "lockStartOn": "18/02/2020, 14:41:32",
                 "status": "NORMAL",
-                "toDroneStationId": 0,
+                "todroneStationId": 0,
                 "versionTimestamp": "18/02/2020, 14:41:32",
                 "fromdroneStationId": 4
             },
@@ -390,7 +391,7 @@
                 "lockEndOn": "18/02/2020, 14:44:06",
                 "lockStartOn": "18/02/2020, 14:44:06",
                 "status": "LOCKED",
-                "toDroneStationId": 1,
+                "todroneStationId": 1,
                 "versionTimestamp": "18/02/2020, 14:44:06",
                 "fromdroneStationId": 0
             },
@@ -400,7 +401,7 @@
                 "lockEndOn": "18/02/2020, 14:44:07",
                 "lockStartOn": "18/02/2020, 14:44:07",
                 "status": "LOCKED",
-                "toDroneStationId": 2,
+                "todroneStationId": 2,
                 "versionTimestamp": "18/02/2020, 14:44:07",
                 "fromdroneStationId": 1
             },
@@ -410,7 +411,7 @@
                 "lockEndOn": "18/02/2020, 14:44:08",
                 "lockStartOn": "18/02/2020, 14:44:08",
                 "status": "LOCKED",
-                "toDroneStationId": 3,
+                "todroneStationId": 3,
                 "versionTimestamp": "18/02/2020, 14:44:08",
                 "fromdroneStationId": 2
             },
@@ -420,7 +421,7 @@
                 "lockEndOn": "18/02/2020, 14:44:09",
                 "lockStartOn": "18/02/2020, 14:44:09",
                 "status": "LOCKED",
-                "toDroneStationId": 4,
+                "todroneStationId": 4,
                 "versionTimestamp": "18/02/2020, 14:44:09",
                 "fromdroneStationId": 3
             },
@@ -430,7 +431,7 @@
                 "lockEndOn": "18/02/2020, 14:44:10",
                 "lockStartOn": "18/02/2020, 14:44:10",
                 "status": "LOCKED",
-                "toDroneStationId": 0 ,
+                "todroneStationId": 0 ,
                 "versionTimestamp": "18/02/2020, 14:44:10",
                 "fromdroneStationId": 4
             }
