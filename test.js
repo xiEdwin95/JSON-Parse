@@ -22,10 +22,8 @@ function publishFunction(topic, subscribeFunction, log, time) {
     counter = 0;
     let timer = setInterval(() => {
         client.publish(topic, JSON.stringify(subscribeFunction[counter]));
-
         console.log(subscribeFunction[counter]);
-        counter++;
-
+            counter++;
         if (counter == subscribeFunction.length) {
             clearInterval(timer);
             console.log("MQTT Broadcasting " + log + " Completed");

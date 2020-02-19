@@ -2,7 +2,7 @@
     "droneStation": {
         "name": "Drone Station Test Cases",
         "topic": "/dockingStation/test",
-	"interval":1000,
+	    "interval":1000,
         "testcases": [
             {
                 "description": "This is Drone Station Main Log",
@@ -108,7 +108,7 @@
     "drone": {
         "name": "Drone Test Cases",
         "topic": "/drone/test",
-	"interval":1000,
+	    "interval":1000,
         "testcases": [
             {
                 "droneId": 1234,
@@ -225,8 +225,8 @@
     "leakage": {
         "name": "Leakage Test Cases",
         "topic": "/leakage/test",
-	"interval":1000,
-        "testcase": [
+	    "interval":1000,
+        "testcases": [
             {
                 "id": 1,
                 "flightMissionId": 1111,
@@ -332,7 +332,7 @@
     "flightPath": {
         "name": "Flight Path Test Case",
         "topic": "/flight/path/test",
-	"interval":1000,
+	    "interval":1000,
         "testcases": [
             {
                 "details": "This is a detail",
@@ -430,7 +430,7 @@
                 "lockEndOn": "18/02/2020, 14:44:10",
                 "lockStartOn": "18/02/2020, 14:44:10",
                 "status": "LOCKED",
-                "toDroneStationId": 0,
+                "toDroneStationId": 0 ,
                 "versionTimestamp": "18/02/2020, 14:44:10",
                 "fromdroneStationId": 4
             }
