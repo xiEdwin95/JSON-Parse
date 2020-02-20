@@ -4,6 +4,17 @@
         "topic": "/dockingStation/test",
 	    "interval":1000,
         "testcases": [
+                 {
+                "description": "This is Drone Station Main Log",
+                "droneStationId": 0,
+                "eventDateTime": "18/02/2020, 14:04:29",
+                "eventType": "HEALTH_STATUS_CHANGED",
+                "id": 0,
+                "previousHealthStatus": "CORRECTIVE_MAINTENANCE",
+                "previousNextPMDate": "2020-02-06T16:45:52.192Z",
+                "updatedHealthStatus": "FAULT_CONDITION",
+                "updatedNextPMDate": "2020-02-06T16:45:52.192Z"
+            },
             {
                 "description": "This is Drone Station Main Log",
                 "droneStationId": 3,
@@ -17,13 +28,13 @@
             },
             {
                 "description": "This is Drone Station Main Log",
-                "droneStationId": 2,
+                "droneStationId": 1,
                 "eventDateTime": "18/02/2020, 14:05:27",
                 "eventType": "NEXT_PM_DATE_CHANGED",
                 "id": 2,
-                "previousHealthStatus": "CORRECTIVE_MAINTENANCE",
+                "previousHealthStatus": "PREVENTIVE_MAINTENANCE",
                 "previousNextPMDate": "2019-02-10T06:16:25.404Z",
-                "updatedHealthStatus": "CORRECTIVE_MAINTENANCE",
+                "updatedHealthStatus": "PREVENTIVE_MAINTENANCE",
                 "updatedNextPMDate": "2020-02-06T16:45:52.192Z"
             },
             {
@@ -102,6 +113,17 @@
                 "previousNextPMDate": "2019-02-10T06:16:25.404Z",
                 "updatedHealthStatus": "PREVENTIVE_MAINTENANCE",
                 "updatedNextPMDate": "2019-02-10T06:16:25.404Z"
+            },
+            {
+                "description": "This is Drone Station Main Log",
+                "droneStationId": 0,
+                "eventDateTime": "18/02/2020, 14:10:29",
+                "eventType": "HEALTH_STATUS_CHANGED",
+                "id": 10,
+                "previousHealthStatus": "FAULT_CONDITION",
+                "previousNextPMDate": "2020-02-06T16:45:52.192Z",
+                "updatedHealthStatus": "GOOD_CONDITION",
+                "updatedNextPMDate": "2020-02-06T16:45:52.192Z"
             }
         ]
     },
