@@ -2,11 +2,22 @@
     "droneStation": {
         "name": "Drone Station Test Cases",
         "topic": "/dockingStation/test",
-	"interval":9000,
+        "interval": 1000,
         "testcases": [
             {
                 "description": "This is Drone Station Main Log",
-                "dronestationId": 3,
+                "droneStationId": 0,
+                "eventDateTime": "18/02/2020, 14:04:29",
+                "eventType": "HEALTH_STATUS_CHANGED",
+                "id": 0,
+                "previousHealthStatus": "CORRECTIVE_MAINTENANCE",
+                "previousNextPMDate": "2020-02-06T16:45:52.192Z",
+                "updatedHealthStatus": "FAULT_CONDITION",
+                "updatedNextPMDate": "2020-02-06T16:45:52.192Z"
+            },
+            {
+                "description": "This is Drone Station Main Log",
+                "droneStationId": 3,
                 "eventDateTime": "18/02/2020, 14:05:26",
                 "eventType": "HEALTH_STATUS_CHANGED",
                 "id": 1,
@@ -17,18 +28,18 @@
             },
             {
                 "description": "This is Drone Station Main Log",
-                "dronestationId": 2,
+                "droneStationId": 1,
                 "eventDateTime": "18/02/2020, 14:05:27",
                 "eventType": "NEXT_PM_DATE_CHANGED",
                 "id": 2,
-                "previousHealthStatus": "CORRECTIVE_MAINTENANCE",
+                "previousHealthStatus": "PREVENTIVE_MAINTENANCE",
                 "previousNextPMDate": "2019-02-10T06:16:25.404Z",
-                "updatedHealthStatus": "CORRECTIVE_MAINTENANCE",
+                "updatedHealthStatus": "PREVENTIVE_MAINTENANCE",
                 "updatedNextPMDate": "2020-02-06T16:45:52.192Z"
             },
             {
                 "description": "This is Drone Station Main Log",
-                "dronestationId": 2,
+                "droneStationId": 2,
                 "eventDateTime": "18/02/2020, 14:05:28",
                 "eventType": "HEALTH_STATUS_CHANGED",
                 "id": 3,
@@ -39,7 +50,7 @@
             },
             {
                 "description": "This is Drone Station Main Log",
-                "dronestationId": 1,
+                "droneStationId": 1,
                 "eventDateTime": "18/02/2020, 14:05:29",
                 "eventType": "HEALTH_STATUS_CHANGED",
                 "id": 4,
@@ -50,7 +61,7 @@
             },
             {
                 "description": "This is Drone Station Main Log",
-                "dronestationId": 3,
+                "droneStationId": 3,
                 "eventDateTime": "18/02/2020, 14:07:22",
                 "eventType": "HEALTH_STATUS_CHANGED",
                 "id": 5,
@@ -61,7 +72,7 @@
             },
             {
                 "description": "This is Drone Station Main Log",
-                "dronestationId": 4,
+                "droneStationId": 4,
                 "eventDateTime": "18/02/2020, 14:07:23",
                 "eventType": "NEXT_PM_DATE_CHANGED",
                 "id": 6,
@@ -72,7 +83,7 @@
             },
             {
                 "description": "This is Drone Station Main Log",
-                "dronestationId": 2,
+                "droneStationId": 2,
                 "eventDateTime": "18/02/2020, 14:07:24",
                 "eventType": "HEALTH_STATUS_CHANGED",
                 "id": 7,
@@ -83,7 +94,7 @@
             },
             {
                 "description": "This is Drone Station Main Log",
-                "dronestationId": 2,
+                "droneStationId": 2,
                 "eventDateTime": "18/02/2020, 14:07:25",
                 "eventType": "NEXT_PM_DATE_CHANGED",
                 "id": 8,
@@ -94,7 +105,7 @@
             },
             {
                 "description": "This is Drone Station Main Log",
-                "dronestationId": 3,
+                "droneStationId": 3,
                 "eventDateTime": "18/02/2020, 14:07:26",
                 "eventType": "HEALTH_STATUS_CHANGED",
                 "id": 9,
@@ -102,133 +113,837 @@
                 "previousNextPMDate": "2019-02-10T06:16:25.404Z",
                 "updatedHealthStatus": "PREVENTIVE_MAINTENANCE",
                 "updatedNextPMDate": "2019-02-10T06:16:25.404Z"
+            },
+            {
+                "description": "This is Drone Station Main Log",
+                "droneStationId": 0,
+                "eventDateTime": "18/02/2020, 14:10:29",
+                "eventType": "HEALTH_STATUS_CHANGED",
+                "id": 10,
+                "previousHealthStatus": "FAULT_CONDITION",
+                "previousNextPMDate": "2020-02-06T16:45:52.192Z",
+                "updatedHealthStatus": "GOOD_CONDITION",
+                "updatedNextPMDate": "2020-02-06T16:45:52.192Z"
             }
         ]
     },
     "drone": {
         "name": "Drone Test Cases",
         "topic": "/drone/test",
-	"interval":10000,
+        "interval": 1000,
         "testcases": [
             {
-                "droneId": 1234,
-                "description": " THis is drone maintenace Log description",
-                "eventDateTime": "18/02/2020, 14:00:54",
-                "eventType": "NEXT_PM_DATE_CHANGED",
                 "id": 1,
-                "previousHealthStatus": "CORRECTIVE_MAINTENANCE",
-                "previousNextPMDate": "2019-06-01T20:49:37.007Z",
-                "updatedHealthStatus": "CORRECTIVE_MAINTENANCE",
-                "updatedNextPMDate": "2020-02-10T04:27:19.311Z"
+                "flightMissionId": 1112,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Down",
+                "batteryLevel": 5,
+                "altitude": 483,
+                "eventDateTime": "20/02/2020, 13:17:17",
+                "lat": 1.26726,
+                "lng": 103.678887
             },
             {
-                "droneId": 1234,
-                "description": " THis is drone maintenace Log description",
-                "eventDateTime": "18/02/2020, 14:00:55",
-                "eventType": "HEALTH_STATUS_CHANGED",
                 "id": 2,
-                "previousHealthStatus": "CORRECTIVE_MAINTENANCE",
-                "previousNextPMDate": "2020-02-10T04:27:19.311Z",
-                "updatedHealthStatus": "FAULT_CONDITION",
-                "updatedNextPMDate": "2020-02-10T04:27:19.311Z"
+                "flightMissionId": 1112,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Down",
+                "batteryLevel": 21,
+                "altitude": 218,
+                "eventDateTime": "20/02/2020, 13:17:18",
+                "lat": 1.267593,
+                "lng": 103.679327
             },
             {
-                "droneId": 1234,
-                "description": " THis is drone maintenace Log description",
-                "eventDateTime": "18/02/2020, 14:00:56",
-                "eventType": "NEXT_PM_DATE_CHANGED",
                 "id": 3,
-                "previousHealthStatus": "FAULT_CONDITION",
-                "previousNextPMDate": "2020-02-10T04:27:19.311Z",
-                "updatedHealthStatus": "FAULT_CONDITION",
-                "updatedNextPMDate": "2020-03-10T04:27:19.311Z"
+                "flightMissionId": 1112,
+                "droneStatus": "OK",
+                "gimbalPosition": "Down",
+                "batteryLevel": 25,
+                "altitude": 277,
+                "eventDateTime": "20/02/2020, 13:17:19",
+                "lat": 1.268355,
+                "lng": 103.680346
             },
             {
-                "droneId": 1234,
-                "description": " THis is drone maintenace Log description",
-                "eventDateTime": "18/02/2020, 14:00:57",
-                "eventType": "HEALTH_STATUS_CHANGED",
                 "id": 4,
-                "previousHealthStatus": "FAULT_CONDITION",
-                "previousNextPMDate": "2020-03-10T04:27:19.311Z",
-                "updatedHealthStatus": "PREVENTIVE_MAINTENANCE",
-                "updatedNextPMDate": "2020-03-10T04:27:19.311Z"
+                "flightMissionId": 1112,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Left",
+                "batteryLevel": 17,
+                "altitude": 809,
+                "eventDateTime": "20/02/2020, 13:17:20",
+                "lat": 1.268762,
+                "lng": 103.680945
             },
             {
-                "droneId": 1234,
-                "description": " THis is drone maintenace Log description",
-                "eventDateTime": "18/02/2020, 14:00:58",
-                "eventType": "NEXT_PM_DATE_CHANGED",
                 "id": 5,
-                "previousHealthStatus": "PREVENTIVE_MAINTENANCE",
-                "previousNextPMDate": "2020-03-10T04:27:19.311Z",
-                "updatedHealthStatus": "PREVENTIVE_MAINTENANCE",
-                "updatedNextPMDate": "2020-04-10T04:27:19.311Z"
+                "flightMissionId": 1112,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 93,
+                "altitude": 596,
+                "eventDateTime": "20/02/2020, 13:17:20",
+                "lat": 1.269309,
+                "lng": 103.681675
             },
             {
-                "droneId": 1234,
-                "description": " THis is drone maintenace Log description",
-                "eventDateTime": "18/02/2020, 14:03:37",
-                "eventType": "NEXT_PM_DATE_CHANGED",
                 "id": 6,
-                "previousHealthStatus": "PREVENTIVE_MAINTENANCE",
-                "previousNextPMDate": "2020-04-10T04:27:19.311Z",
-                "updatedHealthStatus": "PREVENTIVE_MAINTENANCE",
-                "updatedNextPMDate": "2020-05-10T04:27:19.311Z"
+                "flightMissionId": 1112,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Left",
+                "batteryLevel": 0,
+                "altitude": 467,
+                "eventDateTime": "20/02/2020, 13:17:21",
+                "lat": 1.269942,
+                "lng": 103.68263
             },
             {
-                "droneId": 1234,
-                "description": " THis is drone maintenace Log description",
-                "eventDateTime": "18/02/2020, 14:03:38",
-                "eventType": "NEXT_PM_DATE_CHANGED",
                 "id": 7,
-                "previousHealthStatus": "PREVENTIVE_MAINTENANCE",
-                "previousNextPMDate": "2020-05-10T04:27:19.311Z",
-                "updatedHealthStatus": "PREVENTIVE_MAINTENANCE",
-                "updatedNextPMDate": "2020-06-10T04:27:19.311Z"
+                "flightMissionId": 1112,
+                "droneStatus": "OK",
+                "gimbalPosition": "Up",
+                "batteryLevel": 58,
+                "altitude": 750,
+                "eventDateTime": "20/02/2020, 13:17:23",
+                "lat": 1.270532,
+                "lng": 103.683413
             },
             {
-                "droneId": 1234,
-                "description": " THis is drone maintenace Log description",
-                "eventDateTime": "18/02/2020, 14:03:39",
-                "eventType": "NEXT_PM_DATE_CHANGED",
                 "id": 8,
-                "previousHealthStatus": "PREVENTIVE_MAINTENANCE",
-                "previousNextPMDate": "2020-06-10T04:27:19.311Z",
-                "updatedHealthStatus": "PREVENTIVE_MAINTENANCE",
-                "updatedNextPMDate": "2020-07-10T04:27:19.311Z"
+                "flightMissionId": 1112,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Up",
+                "batteryLevel": 33,
+                "altitude": 475,
+                "eventDateTime": "20/02/2020, 13:17:24",
+                "lat": 1.271036,
+                "lng": 103.6841
             },
             {
-                "droneId": 1234,
-                "description": " THis is drone maintenace Log description",
-                "eventDateTime": "18/02/2020, 14:03:40",
-                "eventType": "HEALTH_STATUS_CHANGED",
                 "id": 9,
-                "previousHealthStatus": "PREVENTIVE_MAINTENANCE",
-                "previousNextPMDate": "2020-07-10T04:27:19.311Z",
-                "updatedHealthStatus": "CORRECTIVE_MAINTENANCE",
-                "updatedNextPMDate": "2020-07-10T04:27:19.311Z"
+                "flightMissionId": 1112,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Down",
+                "batteryLevel": 88,
+                "altitude": 434,
+                "eventDateTime": "20/02/2020, 13:17:25",
+                "lat": 1.271497,
+                "lng": 103.684572
             },
             {
-                "droneId": 1234,
-                "description": " THis is drone maintenace Log description",
-                "eventDateTime": "18/02/2020, 14:03:41",
-                "eventType": "HEALTH_STATUS_CHANGED",
                 "id": 10,
-                "previousHealthStatus": "PREVENTIVE_MAINTENANCE",
-                "previousNextPMDate": "2020-07-10T04:27:19.311Z",
-                "updatedHealthStatus": "CORRECTIVE_MAINTENANCE",
-                "updatedNextPMDate": "2020-07-10T04:27:19.311Z"
-            }
+                "flightMissionId": 1112,
+                "droneStatus": "OK",
+                "gimbalPosition": "Left",
+                "batteryLevel": 38,
+                "altitude": 875,
+                "eventDateTime": "20/02/2020, 13:17:26",
+                "lat": 1.272301,
+                "lng": 103.684186
+            },
+            {
+                "id": 11,
+                "flightMissionId": 1112,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Left",
+                "batteryLevel": 35,
+                "altitude": 498,
+                "eventDateTime": "20/02/2020, 13:17:27",
+                "lat": 1.272977,
+                "lng": 103.683714
+            },
+            {
+                "id": 12,
+                "flightMissionId": 1112,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Right",
+                "batteryLevel": 29,
+                "altitude": 697,
+                "eventDateTime": "20/02/2020, 13:17:28",
+                "lat": 1.273556,
+                "lng": 103.68322
+            },
+            {
+                "id": 13,
+                "flightMissionId": 1112,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Up",
+                "batteryLevel": 42,
+                "altitude": 599,
+                "eventDateTime": "20/02/2020, 13:17:29",
+                "lat": 1.274275,
+                "lng": 103.682791
+            },
+            {
+                "id": 14,
+                "flightMissionId": 1112,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Down",
+                "batteryLevel": 4,
+                "altitude": 511,
+                "eventDateTime": "20/02/2020, 13:17:30",
+                "lat": 1.274908,
+                "lng": 103.682244
+            },
+            {
+                "id": 15,
+                "flightMissionId": 1112,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Left",
+                "batteryLevel": 75,
+                "altitude": 438,
+                "eventDateTime": "20/02/2020, 13:17:31",
+                "lat": 1.275562,
+                "lng": 103.681826
+            },
+            {
+                "id": 16,
+                "flightMissionId": 1112,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Right",
+                "batteryLevel": 18,
+                "altitude": 947,
+                "eventDateTime": "20/02/2020, 13:17:32",
+                "lat": 1.276163,
+                "lng": 103.681429
+            },
+            {
+                "id": 17,
+                "flightMissionId": 1112,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Up",
+                "batteryLevel": 97,
+                "altitude": 51,
+                "eventDateTime": "20/02/2020, 13:17:33",
+                "lat": 1.276753,
+                "lng": 103.681
+            },
+            {
+                "id": 18,
+                "flightMissionId": 1112,
+                "droneStatus": "OK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 94,
+                "altitude": 405,
+                "eventDateTime": "20/02/2020, 13:17:34",
+                "lat": 1.277354,
+                "lng": 103.680571
+            },
+            {
+                "id": 19,
+                "flightMissionId": 1112,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Right",
+                "batteryLevel": 62,
+                "altitude": 791,
+                "eventDateTime": "20/02/2020, 13:17:35",
+                "lat": 1.277493,
+                "lng": 103.680002
+            },
+            {
+                "id": 20,
+                "flightMissionId": 1112,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Left",
+                "batteryLevel": 78,
+                "altitude": 392,
+                "eventDateTime": "20/02/2020, 13:17:36",
+                "lat": 1.277278,
+                "lng": 103.679745
+            },
+            {
+                "id": 21,
+                "flightMissionId": 1112,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Up",
+                "batteryLevel": 37,
+                "altitude": 760,
+                "eventDateTime": "20/02/2020, 13:17:37",
+                "lat": 1.276999,
+                "lng": 103.679423
+            },
+            {
+                "id": 22,
+                "flightMissionId": 1112,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Down",
+                "batteryLevel": 87,
+                "altitude": 288,
+                "eventDateTime": "20/02/2020, 13:17:38",
+                "lat": 1.276742,
+                "lng": 103.67908
+            },
+            {
+                "id": 23,
+                "flightMissionId": 1112,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Left",
+                "batteryLevel": 60,
+                "altitude": 293,
+                "eventDateTime": "20/02/2020, 13:17:39",
+                "lat": 1.276517,
+                "lng": 103.678704
+            },
+            {
+                "id": 24,
+                "flightMissionId": 1112,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Up",
+                "batteryLevel": 31,
+                "altitude": 753,
+                "eventDateTime": "20/02/2020, 13:17:40",
+                "lat": 1.276367,
+                "lng": 103.678479
+            },
+            {
+                "id": 25,
+                "flightMissionId": 1112,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Down",
+                "batteryLevel": 7,
+                "altitude": 677,
+                "eventDateTime": "20/02/2020, 13:17:41",
+                "lat": 1.276099,
+                "lng": 103.678114
+            },
+            {
+                "id": 26,
+                "flightMissionId": 1112,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Up",
+                "batteryLevel": 70,
+                "altitude": 940,
+                "eventDateTime": "20/02/2020, 13:17:42",
+                "lat": 1.275799,
+                "lng": 103.677706
+            },
+            {
+                "id": 27,
+                "flightMissionId": 1112,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 61,
+                "altitude": 573,
+                "eventDateTime": "20/02/2020, 13:17:43",
+                "lat": 1.275649,
+                "lng": 103.677459
+            },
+            {
+                "id": 28,
+                "flightMissionId": 1112,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Down",
+                "batteryLevel": 11,
+                "altitude": 88,
+                "eventDateTime": "20/02/2020, 13:17:44",
+                "lat": 1.275424,
+                "lng": 103.677191
+            },
+            {
+                "id": 29,
+                "flightMissionId": 1112,
+                "droneStatus": "OK",
+                "gimbalPosition": "Left",
+                "batteryLevel": 41,
+                "altitude": 968,
+                "eventDateTime": "20/02/2020, 13:17:45",
+                "lat": 1.275242,
+                "lng": 103.676869
+            },
+            {
+                "id": 30,
+                "flightMissionId": 1112,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Down",
+                "batteryLevel": 36,
+                "altitude": 17,
+                "eventDateTime": "20/02/2020, 13:17:46",
+                "lat": 1.274995,
+                "lng": 103.676569
+            },
+            {
+                "id": 31,
+                "flightMissionId": 1112,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Up",
+                "batteryLevel": 2,
+                "altitude": 438,
+                "eventDateTime": "20/02/2020, 13:17:47",
+                "lat": 1.274877,
+                "lng": 103.676365
+            },
+            {
+                "id": 32,
+                "flightMissionId": 1112,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Left",
+                "batteryLevel": 41,
+                "altitude": 156,
+                "eventDateTime": "20/02/2020, 13:17:48",
+                "lat": 1.27462,
+                "lng": 103.676032
+            },
+            {
+                "id": 33,
+                "flightMissionId": 1112,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Left",
+                "batteryLevel": 8,
+                "altitude": 741,
+                "eventDateTime": "20/02/2020, 13:17:49",
+                "lat": 1.274384,
+                "lng": 103.675742
+            },
+            {
+                "id": 34,
+                "flightMissionId": 1112,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Right",
+                "batteryLevel": 9,
+                "altitude": 365,
+                "eventDateTime": "20/02/2020, 13:17:50",
+                "lat": 1.274137,
+                "lng": 103.675442
+            },
+            {
+                "id": 35,
+                "flightMissionId": 1112,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Up",
+                "batteryLevel": 97,
+                "altitude": 436,
+                "eventDateTime": "20/02/2020, 13:17:51",
+                "lat": 1.273955,
+                "lng": 103.675142
+            },
+            {
+                "id": 36,
+                "flightMissionId": 1112,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Down",
+                "batteryLevel": 83,
+                "altitude": 996,
+                "eventDateTime": "20/02/2020, 13:17:52",
+                "lat": 1.27374,
+                "lng": 103.674842
+            },
+            {
+                "id": 37,
+                "flightMissionId": 1112,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Right",
+                "batteryLevel": 74,
+                "altitude": 838,
+                "eventDateTime": "20/02/2020, 13:17:53",
+                "lat": 1.273472,
+                "lng": 103.674499
+            },
+            {
+                "id": 38,
+                "flightMissionId": 1112,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Left",
+                "batteryLevel": 85,
+                "altitude": 644,
+                "eventDateTime": "20/02/2020, 13:17:54",
+                "lat": 1.273182,
+                "lng": 103.674134
+            },
+            {
+                "id": 39,
+                "flightMissionId": 1112,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Left",
+                "batteryLevel": 21,
+                "altitude": 548,
+                "eventDateTime": "20/02/2020, 13:17:55",
+                "lat": 1.27325,
+                "lng": 103.674152
+            },
+            {
+                "id": 40,
+                "flightMissionId": 1112,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Down",
+                "batteryLevel": 4,
+                "altitude": 993,
+                "eventDateTime": "20/02/2020, 13:17:56",
+                "lat": 1.273025,
+                "lng": 103.673841
+            },
+            {
+                "id": 41,
+                "flightMissionId": 1112,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Up",
+                "batteryLevel": 94,
+                "altitude": 827,
+                "eventDateTime": "20/02/2020, 13:17:57",
+                "lat": 1.272735,
+                "lng": 103.673455
+            },
+            {
+                "id": 42,
+                "flightMissionId": 1112,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Left",
+                "batteryLevel": 54,
+                "altitude": 878,
+                "eventDateTime": "20/02/2020, 13:17:58",
+                "lat": 1.272467,
+                "lng": 103.673047
+            },
+            {
+                "id": 43,
+                "flightMissionId": 1112,
+                "droneStatus": "OK",
+                "gimbalPosition": "Up",
+                "batteryLevel": 94,
+                "altitude": 790,
+                "eventDateTime": "20/02/2020, 13:17:59",
+                "lat": 1.272242,
+                "lng": 103.67279
+            },
+            {
+                "id": 44,
+                "flightMissionId": 1112,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Up",
+                "batteryLevel": 87,
+                "altitude": 480,
+                "eventDateTime": "20/02/2020, 13:18:00",
+                "lat": 1.271974,
+                "lng": 103.672468
+            },
+            {
+                "id": 45,
+                "flightMissionId": 1112,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 18,
+                "altitude": 896,
+                "eventDateTime": "20/02/2020, 13:18:01",
+                "lat": 1.271749,
+                "lng": 103.672082
+            },
+            {
+                "id": 46,
+                "flightMissionId": 1112,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Down",
+                "batteryLevel": 65,
+                "altitude": 223,
+                "eventDateTime": "20/02/2020, 13:18:02",
+                "lat": 1.271481,
+                "lng": 103.671717
+            },
+            {
+                "id": 47,
+                "flightMissionId": 1112,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Up",
+                "batteryLevel": 36,
+                "altitude": 397,
+                "eventDateTime": "20/02/2020, 13:18:03",
+                "lat": 1.271481,
+                "lng": 103.67146
+            },
+            {
+                "id": 48,
+                "flightMissionId": 1112,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Left",
+                "batteryLevel": 72,
+                "altitude": 33,
+                "eventDateTime": "20/02/2020, 13:18:04",
+                "lat": 1.270902,
+                "lng": 103.670934
+            },
+            {
+                "id": 49,
+                "flightMissionId": 1112,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Down",
+                "batteryLevel": 17,
+                "altitude": 825,
+                "eventDateTime": "20/02/2020, 13:18:05",
+                "lat": 1.270634,
+                "lng": 103.670548
+            },
+            {
+                "id": 50,
+                "flightMissionId": 1112,
+                "droneStatus": "OK",
+                "gimbalPosition": "Up",
+                "batteryLevel": 66,
+                "altitude": 486,
+                "eventDateTime": "20/02/2020, 13:18:06",
+                "lat": 1.27043,
+                "lng": 103.67028
+            },
+            {
+                "id": 51,
+                "flightMissionId": 1112,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 75,
+                "altitude": 651,
+                "eventDateTime": "20/02/2020, 13:18:07",
+                "lat": 1.270151,
+                "lng": 103.669926
+            },
+            {
+                "id": 52,
+                "flightMissionId": 1112,
+                "droneStatus": "OK",
+                "gimbalPosition": "Up",
+                "batteryLevel": 6,
+                "altitude": 780,
+                "eventDateTime": "20/02/2020, 13:18:08",
+                "lat": 1.269625,
+                "lng": 103.669808
+            },
+            {
+                "id": 53,
+                "flightMissionId": 1112,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Down",
+                "batteryLevel": 33,
+                "altitude": 461,
+                "eventDateTime": "20/02/2020, 13:18:09",
+                "lat": 1.269132,
+                "lng": 103.67013
+            },
+            {
+                "id": 54,
+                "flightMissionId": 1112,
+                "droneStatus": "OK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 30,
+                "altitude": 556,
+                "eventDateTime": "20/02/2020, 13:18:10",
+                "lat": 1.268617,
+                "lng": 103.670538
+            },
+            {
+                "id": 55,
+                "flightMissionId": 1112,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Left",
+                "batteryLevel": 59,
+                "altitude": 268,
+                "eventDateTime": "20/02/2020, 13:18:11",
+                "lat": 1.268166,
+                "lng": 103.670838
+            },
+            {
+                "id": 56,
+                "flightMissionId": 1112,
+                "droneStatus": "OK",
+                "gimbalPosition": "Left",
+                "batteryLevel": 41,
+                "altitude": 938,
+                "eventDateTime": "20/02/2020, 13:18:12",
+                "lat": 1.26778,
+                "lng": 103.671106
+            },
+            {
+                "id": 57,
+                "flightMissionId": 1112,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Left",
+                "batteryLevel": 11,
+                "altitude": 691,
+                "eventDateTime": "20/02/2020, 13:18:13",
+                "lat": 1.266954,
+                "lng": 103.671685
+            },
+            {
+                "id": 58,
+                "flightMissionId": 1112,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Down",
+                "batteryLevel": 47,
+                "altitude": 979,
+                "eventDateTime": "20/02/2020, 13:18:14",
+                "lat": 1.266439,
+                "lng": 103.67205
+            },
+            {
+                "id": 59,
+                "flightMissionId": 1112,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Down",
+                "batteryLevel": 2,
+                "altitude": 7,
+                "eventDateTime": "20/02/2020, 13:18:15",
+                "lat": 1.266053,
+                "lng": 103.672361
+            },
+            {
+                "id": 60,
+                "flightMissionId": 1112,
+                "droneStatus": "OK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 20,
+                "altitude": 452,
+                "eventDateTime": "20/02/2020, 13:18:16",
+                "lat": 1.265527,
+                "lng": 103.672672
+            },
+            {
+                "id": 61,
+                "flightMissionId": 1112,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Left",
+                "batteryLevel": 89,
+                "altitude": 706,
+                "eventDateTime": "20/02/2020, 13:18:17",
+                "lat": 1.265066,
+                "lng": 103.673058
+            },
+            {
+                "id": 62,
+                "flightMissionId": 1112,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Left",
+                "batteryLevel": 43,
+                "altitude": 320,
+                "eventDateTime": "20/02/2020, 13:18:18",
+                "lat": 1.264498,
+                "lng": 103.673412
+            },
+            {
+                "id": 63,
+                "flightMissionId": 1112,
+                "droneStatus": "OK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 77,
+                "altitude": 791,
+                "eventDateTime": "20/02/2020, 13:18:19",
+                "lat": 1.264165,
+                "lng": 103.673712
+            },
+            {
+                "id": 64,
+                "flightMissionId": 1112,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 12,
+                "altitude": 715,
+                "eventDateTime": "20/02/2020, 13:18:20",
+                "lat": 1.26394,
+                "lng": 103.674227
+            },
+            {
+                "id": 65,
+                "flightMissionId": 1112,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Left",
+                "batteryLevel": 64,
+                "altitude": 458,
+                "eventDateTime": "20/02/2020, 13:18:21",
+                "lat": 1.264187,
+                "lng": 103.674688
+            },
+            {
+                "id": 66,
+                "flightMissionId": 1112,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Down",
+                "batteryLevel": 31,
+                "altitude": 284,
+                "eventDateTime": "20/02/2020, 13:18:22",
+                "lat": 1.264584,
+                "lng": 103.675182
+            },
+            {
+                "id": 67,
+                "flightMissionId": 1112,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 29,
+                "altitude": 391,
+                "eventDateTime": "20/02/2020, 13:18:23",
+                "lat": 1.264884,
+                "lng": 103.675568
+            },
+            {
+                "id": 68,
+                "flightMissionId": 1112,
+                "droneStatus": "OK",
+                "gimbalPosition": "Up",
+                "batteryLevel": 63,
+                "altitude": 829,
+                "eventDateTime": "20/02/2020, 13:18:24",
+                "lat": 1.265302,
+                "lng": 103.676158
+            },
+            {
+                "id": 69,
+                "flightMissionId": 1112,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Left",
+                "batteryLevel": 25,
+                "altitude": 111,
+                "eventDateTime": "20/02/2020, 13:18:25",
+                "lat": 1.265677,
+                "lng": 103.676662
+            },
+            {
+                "id": 70,
+                "flightMissionId": 1112,
+                "droneStatus": "OK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 47,
+                "altitude": 8,
+                "eventDateTime": "20/02/2020, 13:18:26",
+                "lat": 1.265999,
+                "lng": 103.677091
+            },
+            {
+                "id": 71,
+                "flightMissionId": 1112,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Right",
+                "batteryLevel": 60,
+                "altitude": 199,
+                "eventDateTime": "20/02/2020, 13:18:27",
+                "lat": 1.266289,
+                "lng": 103.677563
+            },
+            {
+                "id": 72,
+                "flightMissionId": 1112,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 84,
+                "altitude": 618,
+                "eventDateTime": "20/02/2020, 13:18:28",
+                "lat": 1.26675,
+                "lng": 103.678132
+            },
+            {
+                "id": 73,
+                "flightMissionId": 1112,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Up",
+                "batteryLevel": 18,
+                "altitude": 58,
+                "eventDateTime": "20/02/2020, 13:17:01",
+                "lat": 1.26704,
+                "lng": 103.678572
+            },
         ]
     },
     "leakage": {
         "name": "Leakage Test Cases",
         "topic": "/leakage/test",
-	"interval":10000,
-        "testcase": [
+        "interval": 1000,
+        "testcases": [
             {
-                "id": 1,
+                "id": 0,
                 "flightMissionId": 1111,
                 "leakageTime": "2019-02-27T21:30:03.168Z",
                 "altitude": 644,
@@ -238,17 +953,17 @@
                 "lng": 103.672361
             },
             {
-                "id": 2,
+                "id": 1,
                 "flightMissionId": 1111,
                 "leakageTime": "2019-12-06T12:19:23.526Z",
                 "altitude": 837,
                 "leakageVideoClip": "This is the VideoClip",
                 "status": "LEAKAGE_CONFIRMED",
-                "lat": 1.266289,
-                "lng": 103.677563
+                "lat": 1.269732,
+                "lng": 103.682209
             },
             {
-                "id": 3,
+                "id": 2,
                 "flightMissionId": 1111,
                 "leakageTime": "2019-11-09T10:02:50.311Z",
                 "altitude": 454,
@@ -258,7 +973,7 @@
                 "lng": 103.683714
             },
             {
-                "id": 4,
+                "id": 3,
                 "flightMissionId": 1111,
                 "leakageTime": "2020-01-04T02:02:06.064Z",
                 "altitude": 405,
@@ -268,7 +983,7 @@
                 "lng": 103.673412
             },
             {
-                "id": 5,
+                "id": 3,
                 "flightMissionId": 1111,
                 "leakageTime": "2019-03-04T04:01:17.080Z",
                 "altitude": 133,
@@ -278,37 +993,37 @@
                 "lng": 103.673412
             },
             {
-                "id": 6,
+                "id": 4,
                 "flightMissionId": 1111,
                 "leakageTime": "2019-04-18T23:27:47.557Z",
                 "altitude": 941,
                 "leakageVideoClip": "This is the VideoClip",
                 "status": "REPAIR_IN_PROGRESS",
-                "lat": 1.265066,
-                "lng": 103.673058
+                "lat": 1.275958,
+                "lng": 103.677600
             },
             {
-                "id": 7,
+                "id": 4,
                 "flightMissionId": 1111,
                 "leakageTime": "2019-06-07T20:51:20.760Z",
                 "altitude": 685,
                 "leakageVideoClip": "This is the VideoClip",
                 "status": "LEAKAGE_CONFIRMED",
-                "lat": 1.265066,
-                "lng": 103.673058
+                "lat": 1.275958,
+                "lng": 103.677600
             },
             {
-                "id": 8,
+                "id": 1,
                 "flightMissionId": 1111,
                 "leakageTime": "2019-05-06T11:10:10.060Z",
                 "altitude": 358,
                 "leakageVideoClip": "This is the VideoClip",
                 "status": "REPAIR_IN_PROGRESS",
-                "lat": 1.266289,
-                "lng": 103.677563
+                "lat": 1.269732,
+                "lng": 103.682209
             },
             {
-                "id": 9,
+                "id": 2,
                 "flightMissionId": 1111,
                 "leakageTime": "2019-10-13T11:49:49.614Z",
                 "altitude": 831,
@@ -318,7 +1033,7 @@
                 "lng": 103.683714
             },
             {
-                "id": 10,
+                "id": 0,
                 "flightMissionId": 1111,
                 "leakageTime": "2019-09-17T18:01:15.674Z",
                 "altitude": 482,
@@ -332,7 +1047,7 @@
     "flightPath": {
         "name": "Flight Path Test Case",
         "topic": "/flight/path/test",
-	"interval":10000,
+        "interval": 1000,
         "testcases": [
             {
                 "details": "This is a detail",
@@ -340,9 +1055,9 @@
                 "lockEndOn": "18/02/2020, 14:41:28",
                 "lockStartOn": "18/02/2020, 14:41:28",
                 "status": "NORMAL",
-                "toDroneStationId": 2,
+                "todroneStationId": 1,
                 "versionTimestamp": "18/02/2020, 14:41:28",
-                "fromdroneStationId": 1
+                "fromdroneStationId": 0
             },
             {
                 "details": "This is a detail",
@@ -350,9 +1065,9 @@
                 "lockEndOn": "18/02/2020, 14:41:29",
                 "lockStartOn": "18/02/2020, 14:41:29",
                 "status": "LOCKED",
-                "toDroneStationId": 3,
+                "todroneStationId": 2,
                 "versionTimestamp": "18/02/2020, 14:41:29",
-                "fromdroneStationId": 2
+                "fromdroneStationId": 1
             },
             {
                 "details": "This is a detail",
@@ -360,9 +1075,9 @@
                 "lockEndOn": "18/02/2020, 14:41:30",
                 "lockStartOn": "18/02/2020, 14:41:30",
                 "status": "NORMAL",
-                "toDroneStationId": 4,
+                "todroneStationId": 3,
                 "versionTimestamp": "18/02/2020, 14:41:30",
-                "fromdroneStationId": 3
+                "fromdroneStationId": 2
             },
             {
                 "details": "This is a detail",
@@ -370,9 +1085,9 @@
                 "lockEndOn": "18/02/2020, 14:41:31",
                 "lockStartOn": "18/02/2020, 14:41:31",
                 "status": "LOCKED",
-                "toDroneStationId": 5,
+                "todroneStationId": 4,
                 "versionTimestamp": "18/02/2020, 14:41:31",
-                "fromdroneStationId": 4
+                "fromdroneStationId": 3
             },
             {
                 "details": "This is a detail",
@@ -380,9 +1095,9 @@
                 "lockEndOn": "18/02/2020, 14:41:32",
                 "lockStartOn": "18/02/2020, 14:41:32",
                 "status": "NORMAL",
-                "toDroneStationId": 1,
+                "todroneStationId": 0,
                 "versionTimestamp": "18/02/2020, 14:41:32",
-                "fromdroneStationId": 5
+                "fromdroneStationId": 4
             },
             {
                 "details": "This is a detail",
@@ -390,9 +1105,9 @@
                 "lockEndOn": "18/02/2020, 14:44:06",
                 "lockStartOn": "18/02/2020, 14:44:06",
                 "status": "LOCKED",
-                "toDroneStationId": 2,
+                "todroneStationId": 1,
                 "versionTimestamp": "18/02/2020, 14:44:06",
-                "fromdroneStationId": 1
+                "fromdroneStationId": 0
             },
             {
                 "details": "This is a detail",
@@ -400,9 +1115,9 @@
                 "lockEndOn": "18/02/2020, 14:44:07",
                 "lockStartOn": "18/02/2020, 14:44:07",
                 "status": "LOCKED",
-                "toDroneStationId": 3,
+                "todroneStationId": 2,
                 "versionTimestamp": "18/02/2020, 14:44:07",
-                "fromdroneStationId": 2
+                "fromdroneStationId": 1
             },
             {
                 "details": "This is a detail",
@@ -410,9 +1125,9 @@
                 "lockEndOn": "18/02/2020, 14:44:08",
                 "lockStartOn": "18/02/2020, 14:44:08",
                 "status": "LOCKED",
-                "toDroneStationId": 4,
+                "todroneStationId": 3,
                 "versionTimestamp": "18/02/2020, 14:44:08",
-                "fromdroneStationId": 3
+                "fromdroneStationId": 2
             },
             {
                 "details": "This is a detail",
@@ -420,9 +1135,9 @@
                 "lockEndOn": "18/02/2020, 14:44:09",
                 "lockStartOn": "18/02/2020, 14:44:09",
                 "status": "LOCKED",
-                "toDroneStationId": 5,
+                "todroneStationId": 4,
                 "versionTimestamp": "18/02/2020, 14:44:09",
-                "fromdroneStationId": 4
+                "fromdroneStationId": 3
             },
             {
                 "details": "This is a detail",
@@ -430,10 +1145,10 @@
                 "lockEndOn": "18/02/2020, 14:44:10",
                 "lockStartOn": "18/02/2020, 14:44:10",
                 "status": "LOCKED",
-                "toDroneStationId": 1,
+                "todroneStationId": 0,
                 "versionTimestamp": "18/02/2020, 14:44:10",
-                "fromdroneStationId": 5
+                "fromdroneStationId": 4
             }
         ]
     }
-}
+  }

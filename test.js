@@ -4,7 +4,7 @@ function setting(data) {
         var btn = $(
             `<button id="${prop}" style="margin: 1rem" type="button" class="btn btn-primary">${prop}</button>`
         );
-        btn.on("click", function(event) {
+        btn.on("click", () => {
             publishFunction(
                 dockArr[prop].topic,
                 dockArr[prop].testcases,
@@ -23,16 +23,16 @@ function publishFunction(topic, subscribeFunction, log, time) {
     let timer = setInterval(() => {
         client.publish(topic, JSON.stringify(subscribeFunction[counter]));
         console.log(subscribeFunction[counter]);
-        let progressed = Math.floor(((counter+1)/subscribeFunction.length)*100)
+        let progressed = Math.floor(((counter + 1) / subscribeFunction.length) * 100)
 
         $("#moving-progress-bar")
- 
-      .css("width", progressed + "%")
- 
-      .attr("aria-valuenow", progressed)
- 
-      .text("Publishing "+progressed + "% progress");
-            counter++;
+
+            .css("width", progressed + "%")
+
+            .attr("aria-valuenow", progressed)
+
+            .text("Publishing " + progressed + "% progress");
+        counter++;
         if (counter == subscribeFunction.length) {
             clearInterval(timer);
             console.log("MQTT Broadcasting " + log + " Completed");
@@ -41,34 +41,16 @@ function publishFunction(topic, subscribeFunction, log, time) {
 }
 
 
-function progress(current){
-    var progressed = current*10;
- 
-    var interval = setInterval(function() {
-   
-        $("#moving-progress-bar")
-   
-        .css("width", progressed + "%")
-   
-        .attr("aria-valuenow", progressed)
-   
-        .text(progressed + "% progress");
-   
-        if (progressed >= 100)
-   
-            clearInterval(interval);
-   
-    }, 1000);
-}
+function handleFiles(event) {
 
-function handleFiles(event){
-    
     var input = event.target;
 
     var reader = new FileReader();
-    reader.onload = function(){
-      var text = reader.result;
+    reader.onload = function () {
+        var text = reader.result;
         setting(JSON.parse(text))
     };
     reader.readAsText(input.files[0]);
 }
+
+
