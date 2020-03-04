@@ -1,112 +1,18 @@
 {
-    "droneStation": {
-        "name": "Drone Station Test Cases",
-        "topic": "/dockingStation/test",
+    "Mission-1": {
+        "name": "Mission Log Test Cases",
+        "topic": "/drone/test",
+        "missionTopic": "/mission/log/test",
         "interval": 1000,
         "testcases": [
             {
                 "description": {
-                    "isEmergencyStation": false
+                    "status": "IN_PROGRESS"
                 },
                 "eventDateTime": "2020-03-02 11:05:26 GMT+8",
-                "eventType": "HEALTH_STATUS_CHANGED",
-                "id": 10,
-                "name": "Dock 10",
-                "healthStatus": "GOOD_CONDITION",
-                "previousHealthStatus": "FAULT_CONDITION",
-                "previousNextPMDate": "2020-03-02 11:05:26 GMT+8",
-                "updatedHealthStatus": "GOOD_CONDITION",
-                "updatedNextPMDate": "2020-03-02 11:05:26 GMT+8",
-                "lng": 103.67430136675523,
-                "lat": 1.244089232186539
+                "flightMissionId": 0,
+                "id": 0
             },
-            {
-                "description": {
-                    "isEmergencyStation": false
-                },
-                "eventDateTime": "2020-03-02 11:06:26 GMT+8",
-                "eventType": "HEALTH_STATUS_CHANGED",
-                "id": 11,
-                "name": "Dock 11",
-                "healthStatus": "GOOD_CONDITION",
-                "previousHealthStatus": "FAULT_CONDITION",
-                "previousNextPMDate": "2020-03-02 11:05:26 GMT+8",
-                "updatedHealthStatus": "PREVENTIVE_MAINTENANCE",
-                "updatedNextPMDate": "2020-03-02 11:05:26 GMT+8",
-                "lng": 103.69937235300245,
-                "lat": 1.2535593581915805
-            },
-            {
-                "description": {
-                    "isEmergencyStation": false
-                },
-                "eventDateTime": "2020-03-02 11:07:26 GMT+8",
-                "eventType": "HEALTH_STATUS_CHANGED",
-                "id": 12,
-                "name": "Dock 12",
-                "healthStatus": "GOOD_CONDITION",
-                "previousHealthStatus": "FAULT_CONDITION",
-                "previousNextPMDate": "2020-03-02 11:05:26 GMT+8",
-                "updatedHealthStatus": "CORRECTIVE_MAINTENANCE",
-                "updatedNextPMDate": "2020-03-02 11:05:26 GMT+8",
-                "lng": 103.70944999914525,
-                "lat": 1.2741713720241705
-            },
-            {
-                "description": {
-                    "isEmergencyStation": false
-                },
-                "eventDateTime": "2020-03-02 11:08:26 GMT+8",
-                "eventType": "HEALTH_STATUS_CHANGED",
-                "id": 10,
-                "name": "Dock 10",
-                "healthStatus": "FAULT_CONDITION",
-                "previousHealthStatus": "FAULT_CONDITION",
-                "previousNextPMDate": "2020-03-02 11:05:26 GMT+8",
-                "updatedHealthStatus": "GOOD_CONDITION",
-                "updatedNextPMDate": "2020-03-02 11:05:26 GMT+8",
-                "lng": 103.67430136675523,
-                "lat": 1.244089232186539
-            },
-            {
-                "description": {
-                    "isEmergencyStation": false
-                },
-                "eventDateTime": "2020-03-02 11:09:26 GMT+8",
-                "eventType": "HEALTH_STATUS_CHANGED",
-                "id": 11,
-                "name": "Dock 11",
-                "healthStatus": "FAULT_CONDITION",
-                "previousHealthStatus": "FAULT_CONDITION",
-                "previousNextPMDate": "2020-03-02 11:05:26 GMT+8",
-                "updatedHealthStatus": "PREVENTIVE_MAINTENANCE",
-                "updatedNextPMDate": "2020-03-02 11:05:26 GMT+8",
-                "lng": 103.69937235300245,
-                "lat": 1.2535593581915805
-            },
-            {
-                "description": {
-                    "isEmergencyStation": false
-                },
-                "eventDateTime": "2020-03-02 11:10:26 GMT+8",
-                "eventType": "HEALTH_STATUS_CHANGED",
-                "id": 12,
-                "name": "Dock 12",
-                "healthStatus": "FAULT_CONDITION",
-                "previousHealthStatus": "FAULT_CONDITION",
-                "previousNextPMDate": "2020-03-02 11:05:26 GMT+8",
-                "updatedHealthStatus": "CORRECTIVE_MAINTENANCE",
-                "updatedNextPMDate": "2020-03-02 11:05:26 GMT+8",
-                "lng": 103.70944999914525,
-                "lat": 1.2741713720241705
-            }
-        ]
-    },
-    "Drone":{
-        "name": "Mission Log Test Cases",
-        "topic": "/drone/test",
-        "interval": 1000,
-        "testcases":[
             {
                 "id": 1,
                 "flightMissionId": 0,
@@ -271,14 +177,31 @@
                 "eventDateTime": "2020-03-02 11:19:26 GMT+8",
                 "lng": 103.67421092601239,
                 "lat": 1.2635576903196863
+            },
+            {
+                "description": {
+                    "status": "SUCCESS"
+                },
+                "eventDateTime": "2020-03-2 11:19:27 GMT+8",
+                "flightMissionId": 0,
+                "id": 1
             }
         ]
     },
-    "droneV2": {
+    "Mission-2": {
         "name": "Drone 2 Test Cases",
+        "missionTopic": "/mission/log/test",
         "topic": "/drone/test",
         "interval": 1000,
         "testcases": [
+            {
+                "description": {
+                    "status": "IN_PROGRESS"
+                },
+                "eventDateTime": "2020-03-2 11:05:25 GMT+8",
+                "flightMissionId": 1,
+                "id": 2
+            },
             {
                 "id": 1,
                 "flightMissionId": 1,
@@ -421,14 +344,31 @@
                 "eventDateTime": "2020-03-02 11:17:26 GMT+8",
                 "lng": 103.66219716566889,
                 "lat": 1.2546824091756434
+            },
+            {
+                "description": {
+                    "status": "SUCESS"
+                },
+                "eventDateTime": "2020-03-02 11:17:27 GMT+8",
+                "flightMissionId": 1,
+                "id": 3
             }
         ]
     },
-    "droneV3": {
+    "Mission-3": {
         "name": "Drone 3 Test Cases",
+        "missionTopic": "/mission/log/test",
         "topic": "/drone/test",
         "interval": 1000,
         "testcases": [
+            {
+                "description": {
+                    "status": "IN_PROGRESS"
+                },
+                "eventDateTime": "2020-03-02 11:05:26 GMT+8",
+                "flightMissionId": 2,
+                "id": 4
+            },
             {
                 "id": 1,
                 "flightMissionId": 2,
@@ -538,14 +478,31 @@
                 "eventDateTime": "2020-03-02 11:14:26 GMT+8",
                 "lng": 103.68557576049307,
                 "lat": 1.2465597669093995
+            },
+            {
+                "description": {
+                    "status": "SUCCESS"
+                },
+                "eventDateTime": "2020-03-02 11:14:27 GMT+8",
+                "flightMissionId": 2,
+                "id": 5
             }
         ]
     },
-    "droneV4": {
+    "Mission-4": {
         "name": "Drone 4 Test Cases",
+        "missionTopic": "/mission/log/test",
         "topic": "/drone/test",
         "interval": 1000,
         "testcases": [
+            {
+                "description": {
+                    "status": "IN_PROGRESS"
+                },
+                "eventDateTime": "2020-03-02 11:05:26 GMT+8",
+                "flightMissionId": 3,
+                "id": 6
+            },
             {
                 "id": 1,
                 "flightMissionId": 3,
@@ -677,14 +634,31 @@
                 "eventDateTime": "2020-03-02 11:14:26 GMT+8",
                 "lng": 103.69678376893194,
                 "lat": 1.2651946787923265
+            },
+            {
+                "description": {
+                    "status": "SUCCESS"
+                },
+                "eventDateTime": "2020-03-02 11:14:27 GMT+8",
+                "flightMissionId": 3,
+                "id": 7
             }
         ]
     },
-    "droneV5": {
+    "Mission-5": {
         "name": "Drone 5 Test Cases",
+        "missionTopic": "/mission/log/test",
         "topic": "/drone/test",
         "interval": 1000,
         "testcases": [
+            {
+                "description": {
+                    "status": "IN_PROGRESS"
+                },
+                "eventDateTime": "2020-03-02 11:05:25 GMT+8",
+                "flightMissionId": 4,
+                "id": 8
+            },
             {
                 "id": 1,
                 "flightMissionId": 4,
@@ -772,182 +746,15 @@
                 "eventDateTime": "2020-03-02 11:13:26 GMT+8",
                 "lng": 103.72601795842331,
                 "lat": 1.2724301343941136
+            },
+            {
+                "description": {
+                    "status": "SUCCESS"
+                },
+                "eventDateTime": "2020-03-02 11:13:27 GMT+8",
+                "flightMissionId": 4,
+                "id": 9
             }
-        ]
-    },
-    "leakage": {
-        "name": "Leakage Test Cases",
-        "topic": "/leakage/test",
-        "interval": 1000,
-        "testcases": [
-            {
-                "id": 0,
-                "flightMissionId": 0,
-                "leakageTime": "2020-03-02 11:14:26 GMT+8",
-                "altitude": 532,
-                "leakageVideoClip": "This is the VideoClip",
-                "status": "ALL_CLEAR",
-                "lng": 103.67653766142746,
-                "lat": 1.260199163252949
-            },
-            {
-                "id": 1,
-                "flightMissionId": 1,
-                "leakageTime": "2020-03-02 11:15:26 GMT+8",
-                "altitude": 944,
-                "leakageVideoClip": "This is the VideoClip",
-                "status": "ALL_CLEAR",
-                "lng": 103.68139800775998,
-                "lat": 1.2764854785745428
-            },
-            {
-                "id": 2,
-                "flightMissionId": 2,
-                "leakageTime": "2020-03-02 11:25:26 GMT+8",
-                "altitude": 301,
-                "leakageVideoClip": "This is the VideoClip",
-                "status": "ALL_CLEAR",
-                "lng": 103.70385627110909,
-                "lat": 1.2676717254625345
-            },
-            {
-                "id": 3,
-                "flightMissionId": 3,
-                "leakageTime": "2020-03-02 11:35:26 GMT+8",
-                "altitude": 50,
-                "leakageVideoClip": "This is the VideoClip",
-                "status": "ALL_CLEAR",
-                "lng": 103.70637562629645,
-                "lat": 1.2689483460710989
-            },
-            {
-                "id": 0,
-                "flightMissionId": 0,
-                "leakageTime": "2020-03-02 11:45:26 GMT+8",
-                "altitude": 532,
-                "leakageVideoClip": "This is the VideoClip",
-                "status": "LEAKAGE_DETECTED",
-                "lng": 103.67653766142746,
-                "lat": 1.260199163252949
-            },
-            {
-                "id": 1,
-                "flightMissionId": 1,
-                "leakageTime": "2020-03-02 12:05:26 GMT+8",
-                "altitude": 944,
-                "leakageVideoClip": "This is the VideoClip",
-                "status": "LEAKAGE_DETECTED",
-                "lng": 103.68139800775998,
-                "lat": 1.2764854785745428
-            },
-            {
-                "id": 2,
-                "flightMissionId": 2,
-                "leakageTime": "2020-03-02 12:15:26 GMT+8",
-                "altitude": 301,
-                "leakageVideoClip": "This is the VideoClip",
-                "status": "LEAKAGE_DETECTED",
-                "lng": 103.70385627110909,
-                "lat": 1.2676717254625345
-            },
-            {
-                "id": 3,
-                "flightMissionId": 3,
-                "leakageTime": "2020-03-02 12:25:26 GMT+8",
-                "altitude": 50,
-                "leakageVideoClip": "This is the VideoClip",
-                "status": "LEAKAGE_DETECTED",
-                "lng": 103.70637562629645,
-                "lat": 1.2689483460710989
-            }
-        ]
-    },
-    "Mission-Log":{
-        "name": "Mission Log Test Cases",
-        "topic": "/mission/log/test",
-        "interval": 1000,
-        "testcases": [
-            {
-                "description":{
-                    "status": "SUCCESS"
-                },
-                "eventDateTime": "2020-03-03 13:13:48 GMT+8",
-                "flightMissionId":2,
-                "id":0
-            },
-            {
-                "description":{
-                    "status": "PAUSE"
-                },
-                "eventDateTime": "2020-03-03 13:14:48 GMT+8",
-                "flightMissionId":1,
-                "id":1
-            },
-            {
-                "description":{
-                    "status": "STOP"
-                },
-                "eventDateTime": "2020-03-03 13:15:48 GMT+8",
-                "flightMissionId":3,
-                "id":2
-            },
-            {
-                "description":{
-                    "status": "PAUSE"
-                },
-                "eventDateTime": "2020-03-03 13:16:48 GMT+8",
-                "flightMissionId":1,
-                "id":3
-            },
-            {
-                "description":{
-                    "status": "SUCCESS"
-                },
-                "eventDateTime": "2020-03-03 13:17:48 GMT+8",
-                "flightMissionId":2,
-                "id":4
-            },
-            {
-                "description":{
-                    "status": "PAUSE"
-                },
-                "eventDateTime": "2020-03-03 13:18:48 GMT+8",
-                "flightMissionId":0,
-                "id":5
-            },
-            {
-                "description":{
-                    "status": "STOP"
-                },
-                "eventDateTime": "2020-03-03 13:19:48 GMT+8",
-                "flightMissionId":4,
-                "id":6
-            },
-            {
-                "description":{
-                    "status": "SUCCESS"
-                },
-                "eventDateTime": "2020-03-03 13:22:48 GMT+8",
-                "flightMissionId":3,
-                "id":7
-            },
-            {
-                "description":{
-                    "status": "FAIL"
-                },
-                "eventDateTime": "2020-03-03 13:23:48 GMT+8",
-                "flightMissionId":2,
-                "id":8
-            },
-            {
-                "description":{
-                    "status": "SUCCESS"
-                },
-                "eventDateTime": "2020-03-03 13:25:48 GMT+8",
-                "flightMissionId":4,
-                "id":9
-            }
-
         ]
     }
 }
