@@ -1,6 +1,6 @@
 {
-    "Mission-1": {
-        "name": "Mission Log Test Cases",
+    "Mission-0": {
+        "name": "Drone 0 Test Cases",
         "topic": "/drone/test",
         "missionTopic": "/mission/log/test",
         "interval": 1000,
@@ -188,8 +188,8 @@
             }
         ]
     },
-    "Mission-2": {
-        "name": "Drone 2 Test Cases",
+    "Mission-1": {
+        "name": "Drone 1 Test Cases",
         "missionTopic": "/mission/log/test",
         "topic": "/drone/test",
         "interval": 1000,
@@ -355,8 +355,8 @@
             }
         ]
     },
-    "Mission-3": {
-        "name": "Drone 3 Test Cases",
+    "Mission-2": {
+        "name": "Drone 2 Test Cases",
         "missionTopic": "/mission/log/test",
         "topic": "/drone/test",
         "interval": 1000,
@@ -489,8 +489,8 @@
             }
         ]
     },
-    "Mission-4": {
-        "name": "Drone 4 Test Cases",
+    "Mission-3": {
+        "name": "Drone 3 Test Cases",
         "missionTopic": "/mission/log/test",
         "topic": "/drone/test",
         "interval": 1000,
@@ -645,8 +645,8 @@
             }
         ]
     },
-    "Mission-5": {
-        "name": "Drone 5 Test Cases",
+    "Mission-4": {
+        "name": "Drone 4 Test Cases",
         "missionTopic": "/mission/log/test",
         "topic": "/drone/test",
         "interval": 1000,
@@ -756,5 +756,2475 @@
                 "id": 9
             }
         ]
+    },
+    "Mission-5": {
+        "name": "Drone 5 Test Cases",
+        "missionTopic": "/mission/log/test",
+        "topic": "/drone/test",
+        "interval": 1000,
+        "testcases":[
+            {
+                "description": {
+                    "status": "IN_PROGRESS"
+                },
+                "eventDateTime": "2020-03-02 11:05:26 GMT+8",
+                "flightMissionId": 5,
+                "id": 10
+            },
+            {
+                "id": 1,
+                "flightMissionId": 5,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Down",
+                "batteryLevel": 5,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 11:05:26 GMT+8",
+                "lng": 103.66301556071335,
+                "lat": 1.2717379871359498
+            },
+            {
+                "id": 2,
+                "flightMissionId": 5,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Down",
+                "batteryLevel": 25,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 11:06:26 GMT+8",
+                "lng": 103.66389074740914,
+                "lat": 1.270690371224262
+            },
+            {
+                "id": 3,
+                "flightMissionId": 5,
+                "droneStatus": "OK",
+                "gimbalPosition": "Down",
+                "batteryLevel": 35,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 11:07:26 GMT+8",
+                "lng": 103.66426285502905,
+                "lat": 1.2698931937140827
+            },
+            {
+                "id": 4,
+                "flightMissionId": 5,
+                "droneStatus": "OK",
+                "gimbalPosition": "Down",
+                "batteryLevel": 45,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 11:08:26 GMT+8",
+                "lng": 103.66495391204103,
+                "lat": 1.2692554515285366
+            },
+            {
+                "id": 5,
+                "flightMissionId": 5,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Down",
+                "batteryLevel": 55,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 11:09:26 GMT+8",
+                "lng": 103.66527286143003,
+                "lat": 1.2687239995873938
+            },
+            {
+                "id": 6,
+                "flightMissionId": 5,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Down",
+                "batteryLevel": 65,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 11:10:26 GMT+8",
+                "lng": 103.66601707667314,
+                "lat": 1.2678205310365769
+            },
+            {
+                "id": 7,
+                "flightMissionId": 5,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Down",
+                "batteryLevel": 75,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 11:11:26 GMT+8",
+                "lng": 103.66713339953594,
+                "lat": 1.2681925475370974
+            },
+            {
+                "id": 8,
+                "flightMissionId": 5,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Down",
+                "batteryLevel": 85,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 11:12:26 GMT+8",
+                "lng": 103.66835603886398,
+                "lat": 1.2689897255716005
+            },
+            {
+                "id": 9,
+                "flightMissionId": 5,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Down",
+                "batteryLevel": 95,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 11:13:26 GMT+8",
+                "lng": 103.66931288703245,
+                "lat": 1.2697869033604974
+            },
+            {
+                "id": 10,
+                "flightMissionId": 5,
+                "droneStatus": "OK",
+                "gimbalPosition": "Down",
+                "batteryLevel": 100,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 11:14:26 GMT+8",
+                "lng": 103.67021657696989,
+                "lat": 1.2686708543871248
+            },
+            {
+                "id": 11,
+                "flightMissionId": 5,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Down",
+                "batteryLevel": 15,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 11:15:26 GMT+8",
+                "lng": 103.67085447574937,
+                "lat": 1.2676079501555648
+            },
+            {
+                "id": 12,
+                "flightMissionId": 5,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Down",
+                "batteryLevel": 25,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 11:16:26 GMT+8",
+                "lng": 103.67143921629622,
+                "lat": 1.2667044812152852
+            },
+            {
+                "id": 13,
+                "flightMissionId": 5,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Down",
+                "batteryLevel": 35,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 11:17:26 GMT+8",
+                "lng": 103.67228974800287,
+                "lat": 1.2659073024772738
+            },
+            {
+                "id": 14,
+                "flightMissionId": 5,
+                "droneStatus": "OK",
+                "gimbalPosition": "Down",
+                "batteryLevel": 45,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 11:18:26 GMT+8",
+                "lng": 103.67271501385517,
+                "lat": 1.2650569782197323
+            },
+            {
+                "id": 15,
+                "flightMissionId": 5,
+                "droneStatus": "OK",
+                "gimbalPosition": "Down",
+                "batteryLevel": 55,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 11:19:26 GMT+8",
+                "lng": 103.67421092601239,
+                "lat": 1.2635576903196863
+            },
+            {
+                "description": {
+                    "status": "FAILED"
+                },
+                "eventDateTime": "2020-03-2 11:19:27 GMT+8",
+                "flightMissionId": 5,
+                "id": 11
+            }
+        ]
+    },
+    "Mission-6": {
+        "name": "Drone 6 Test Cases",
+        "missionTopic": "/mission/log/test",
+        "topic": "/drone/test",
+        "interval": 1000,
+        "testcases":[
+            {
+                "description": {
+                    "status": "IN_PROGRESS"
+                },
+                "eventDateTime": "2020-03-2 11:05:25 GMT+8",
+                "flightMissionId": 6,
+                "id": 12
+            },
+            {
+                "id": 1,
+                "flightMissionId": 6,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Right",
+                "batteryLevel": 59,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:05:26 GMT+8",
+                "lng": 103.67048984979897,
+                "lat": 1.2609535690457392
+            },
+            {
+                "id": 2,
+                "flightMissionId": 6,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 70,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:06:26 GMT+8",
+                "lng": 103.66942668516708,
+                "lat": 1.2602626792911593
+            },
+            {
+                "id": 3,
+                "flightMissionId": 6,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Right",
+                "batteryLevel": 80,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:07:26 GMT+8",
+                "lng": 103.66889510285114,
+                "lat": 1.2598375162734357
+            },
+            {
+                "id": 4,
+                "flightMissionId": 6,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 90,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:08:26 GMT+8",
+                "lng": 103.66820404584064,
+                "lat": 1.259146626222858
+            },
+            {
+                "id": 5,
+                "flightMissionId": 6,
+                "droneStatus": "OK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 100,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:09:26 GMT+8",
+                "lng": 103.66783193821914,
+                "lat": 1.2589340446320705
+            },
+            {
+                "id": 6,
+                "flightMissionId": 6,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 10,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:10:26 GMT+8",
+                "lng": 103.66708772297625,
+                "lat": 1.2586151722129273
+            },
+            {
+                "id": 7,
+                "flightMissionId": 6,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 20,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:11:26 GMT+8",
+                "lng": 103.6669814065126,
+                "lat": 1.2584557359883064
+            },
+            {
+                "id": 8,
+                "flightMissionId": 6,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 30,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:12:26 GMT+8",
+                "lng": 103.66639666596575,
+                "lat": 1.2579242818376173
+            },
+            {
+                "id": 9,
+                "flightMissionId": 6,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 40,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:13:26 GMT+8",
+                "lng": 103.66559929249172,
+                "lat": 1.257127100408539
+            },
+            {
+                "id": 10,
+                "flightMissionId": 6,
+                "droneStatus": "SYSTEM_ERROR",
+                "gimbalPosition": "Right",
+                "batteryLevel": 50,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:14:26 GMT+8",
+                "lng": 103.66485507724883,
+                "lat": 1.2567550823247302
+            },
+            {
+                "id": 11,
+                "flightMissionId": 6,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Right",
+                "batteryLevel": 70,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:15:26 GMT+8",
+                "lng": 103.66400454554389,
+                "lat": 1.2561704823719566
+            },
+            {
+                "id": 12,
+                "flightMissionId": 6,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Right",
+                "batteryLevel": 80,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:16:26 GMT+8",
+                "lng": 103.66304769737383,
+                "lat": 1.2553733004076548
+            },
+            {
+                "id": 13,
+                "flightMissionId": 6,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 90,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:17:26 GMT+8",
+                "lng": 103.66219716566889,
+                "lat": 1.2546824091756434
+            },
+            {
+                "description": {
+                    "status": "SUCESS"
+                },
+                "eventDateTime": "2020-03-02 11:17:27 GMT+8",
+                "flightMissionId": 6,
+                "id": 13
+            }
+        ]
+    },
+    
+    "Mission-7": {
+        "name": "Drone 0 Test Cases",
+        "missionTopic": "/mission/log/test",
+        "topic": "/drone/test",
+        "interval": 1000,
+        "testcases":[
+            {
+                "description": {
+                    "status": "IN_PROGRESS"
+                },
+                "eventDateTime": "2020-03-02 12:05:26 GMT+8",
+                "flightMissionId": 7,
+                "id": 14
+            },
+            {
+                "id": 1,
+                "flightMissionId": 7,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Right",
+                "batteryLevel": 59,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:05:26 GMT+8",
+                "lng": 103.68085241311746,
+                "lat": 1.2539914618811707
+            },
+            {
+                "id": 2,
+                "flightMissionId": 7,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 70,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:06:26 GMT+8",
+                "lng": 103.68139443658652,
+                "lat": 1.253165719035934
+            },
+            {
+                "id": 3,
+                "flightMissionId": 7,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Right",
+                "batteryLevel": 80,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:07:26 GMT+8",
+                "lng": 103.68178159620766,
+                "lat": 1.252649629625509
+            },
+            {
+                "id": 4,
+                "flightMissionId": 7,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 90,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:08:26 GMT+8",
+                "lng": 103.68214294518702,
+                "lat": 1.2521077356347234
+            },
+            {
+                "id": 5,
+                "flightMissionId": 7,
+                "droneStatus": "OK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 100,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:09:26 GMT+8",
+                "lng": 103.68281402186221,
+                "lat": 1.2512561877095294
+            },
+            {
+                "id": 6,
+                "flightMissionId": 7,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 10,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:10:26 GMT+8",
+                "lng": 103.68330442404749,
+                "lat": 1.2504562484970307
+            },
+            {
+                "id": 7,
+                "flightMissionId": 7,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 20,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:11:26 GMT+8",
+                "lng": 103.68418198585914,
+                "lat": 1.2493466549860415
+            },
+            {
+                "id": 8,
+                "flightMissionId": 7,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 30,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:12:26 GMT+8",
+                "lng": 103.68482725189244,
+                "lat": 1.248520910678664
+            },
+            {
+                "id": 9,
+                "flightMissionId": 7,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 40,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:13:26 GMT+8",
+                "lng": 103.68531765407943,
+                "lat": 1.2475403389763784
+            },
+            {
+                "id": 10,
+                "flightMissionId": 7,
+                "droneStatus": "SYSTEM_ERROR",
+                "gimbalPosition": "Right",
+                "batteryLevel": 50,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:14:26 GMT+8",
+                "lng": 103.68557576049307,
+                "lat": 1.2465597669093995
+            },
+            {
+                "description": {
+                    "status": "SUCCESS"
+                },
+                "eventDateTime": "2020-03-02 12:14:27 GMT+8",
+                "flightMissionId": 7,
+                "id": 15
+            }
+        
+        ]
+    },
+    
+    "Mission-8": {
+        "name": "Drone 1 Test Cases",
+        "missionTopic": "/mission/log/test",
+        "topic": "/drone/test",
+        "interval": 1000,
+        "testcases":[
+              {
+                "description": {
+                    "status": "IN_PROGRESS"
+                },
+                "eventDateTime": "2020-03-02 12:05:26 GMT+8",
+                "flightMissionId": 8,
+                "id": 16
+            },
+            {
+                "id": 1,
+                "flightMissionId": 8,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Right",
+                "batteryLevel": 59,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:05:26 GMT+8",
+                "lng": 103.68494625072049,
+                "lat": 1.2714397687758208
+            },
+            {
+                "id": 2,
+                "flightMissionId": 8,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 70,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:06:26 GMT+8",
+                "lng": 103.68556746158731,
+                "lat": 1.2704736784938433
+            },
+            {
+                "id": 3,
+                "flightMissionId": 8,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Right",
+                "batteryLevel": 80,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:07:26 GMT+8",
+                "lng": 103.68636123102976,
+                "lat": 1.2694385813621096
+            },
+            {
+                "id": 4,
+                "flightMissionId": 8,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 90,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:05:26 GMT+8",
+                "lng": 103.68743109419222,
+                "lat": 1.2680239479446698
+            },
+            {
+                "id": 5,
+                "flightMissionId": 8,
+                "droneStatus": "OK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 100,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:07:26 GMT+8",
+                "lng": 103.68839742221019,
+                "lat": 1.2668163334405307
+            },
+            {
+                "id": 6,
+                "flightMissionId": 8,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 10,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:08:26 GMT+8",
+                "lng": 103.68943277365702,
+                "lat": 1.266229777620893
+            },
+            {
+                "id": 7,
+                "flightMissionId": 8,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 20,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:09:26 GMT+8",
+                "lng": 103.6902955665305,
+                "lat": 1.2661607710449658
+            },
+            {
+                "id": 8,
+                "flightMissionId": 8,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 30,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:10:26 GMT+8",
+                "lng": 103.69133091797744,
+                "lat": 1.2661952743336684
+            },
+            {
+                "id": 9,
+                "flightMissionId": 8,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 40,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:11:26 GMT+8",
+                "lng": 103.69236626942438,
+                "lat": 1.2663332874807907
+            },
+            {
+                "id": 10,
+                "flightMissionId": 8,
+                "droneStatus": "SYSTEM_ERROR",
+                "gimbalPosition": "Right",
+                "batteryLevel": 50,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:12:26 GMT+8",
+                "lng": 103.69412636688469,
+                "lat": 1.2661952743336684
+            },
+            {
+                "id": 11,
+                "flightMissionId": 8,
+                "droneStatus": "SYSTEM_ERROR",
+                "gimbalPosition": "Right",
+                "batteryLevel": 50,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:13:26 GMT+8",
+                "lng": 103.69519623004498,
+                "lat": 1.2656777249641777
+            },
+            {
+                "id": 12,
+                "flightMissionId": 8,
+                "droneStatus": "SYSTEM_ERROR",
+                "gimbalPosition": "Right",
+                "batteryLevel": 50,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:14:26 GMT+8",
+                "lng": 103.69678376893194,
+                "lat": 1.2651946787923265
+            },
+            {
+                "description": {
+                    "status": "SUCCESS"
+                },
+                "eventDateTime": "2020-03-02 12:14:27 GMT+8",
+                "flightMissionId": 8,
+                "id": 17
+            }
+        ]
+    },
+    "Mission-9": {
+        "name": "Drone 2 Test Cases",
+        "missionTopic": "/mission/log/test",
+        "topic": "/drone/test",
+        "interval": 1000,
+        "testcases":[
+            {
+                "description": {
+                    "status": "IN_PROGRESS"
+                },
+                "eventDateTime": "2020-03-02 11:05:25 GMT+8",
+                "flightMissionId": 9,
+                "id": 18
+            },
+            {
+                "id": 1,
+                "flightMissionId": 9,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Right",
+                "batteryLevel": 59,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:05:26 GMT+8",
+                "lng": 103.72156594720013,
+                "lat": 1.2768465408072416
+            },
+            {
+                "id": 2,
+                "flightMissionId": 9,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 70,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:07:26 GMT+8",
+                "lng": 103.72229069321361,
+                "lat": 1.2761564778047756
+            },
+            {
+                "id": 3,
+                "flightMissionId": 9,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Right",
+                "batteryLevel": 80,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:08:26 GMT+8",
+                "lng": 103.72280836893606,
+                "lat": 1.2755699241069323
+            },
+            {
+                "id": 4,
+                "flightMissionId": 9,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 90,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:09:26 GMT+8",
+                "lng": 103.72349860323402,
+                "lat": 1.275086879784567
+            },
+            {
+                "id": 5,
+                "flightMissionId": 9,
+                "droneStatus": "OK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 100,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:10:26 GMT+8",
+                "lng": 103.72405079067403,
+                "lat": 1.2743968163101727
+            },
+            {
+                "id": 6,
+                "flightMissionId": 9,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 10,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:11:26 GMT+8",
+                "lng": 103.72501711868995,
+                "lat": 1.273568739896561
+            },
+            {
+                "id": 7,
+                "flightMissionId": 9,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 20,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:12:26 GMT+8",
+                "lng": 103.72536223583882,
+                "lat": 1.273223707979156
+            },
+            {
+                "id": 8,
+                "flightMissionId": 9,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 30,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:13:26 GMT+8",
+                "lng": 103.72601795842331,
+                "lat": 1.2724301343941136
+            },
+            {
+                "description": {
+                    "status": "SUCCESS"
+                },
+                "eventDateTime": "2020-03-02 11:13:27 GMT+8",
+                "flightMissionId": 9,
+                "id": 19
+            }
+        ]
+    },
+    "Mission-10": {
+        "name": "Drone 3 Test Cases",
+        "missionTopic": "/mission/log/test",
+        "topic": "/drone/test",
+        "interval": 1000,
+        "testcases":[
+            {
+                "description": {
+                    "status": "IN_PROGRESS"
+                },
+                "eventDateTime": "2020-03-02 12:05:26 GMT+8",
+                "flightMissionId": 10,
+                "id": 20
+            },
+            {
+                "id": 1,
+                "flightMissionId": 10,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Down",
+                "batteryLevel": 5,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 12:05:26 GMT+8",
+                "lng": 103.66301556071335,
+                "lat": 1.2717379871359498
+            },
+            {
+                "id": 2,
+                "flightMissionId": 10,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Down",
+                "batteryLevel": 25,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 12:06:26 GMT+8",
+                "lng": 103.66389074740914,
+                "lat": 1.270690371224262
+            },
+            {
+                "id": 3,
+                "flightMissionId": 10,
+                "droneStatus": "OK",
+                "gimbalPosition": "Down",
+                "batteryLevel": 35,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 12:07:26 GMT+8",
+                "lng": 103.66426285502905,
+                "lat": 1.2698931937140827
+            },
+            {
+                "id": 4,
+                "flightMissionId": 10,
+                "droneStatus": "OK",
+                "gimbalPosition": "Down",
+                "batteryLevel": 45,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 12:08:26 GMT+8",
+                "lng": 103.66495391204103,
+                "lat": 1.2692554515285366
+            },
+            {
+                "id": 5,
+                "flightMissionId": 10,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Down",
+                "batteryLevel": 55,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 12:09:26 GMT+8",
+                "lng": 103.66527286143003,
+                "lat": 1.2687239995873938
+            },
+            {
+                "id": 6,
+                "flightMissionId": 10,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Down",
+                "batteryLevel": 65,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 12:10:26 GMT+8",
+                "lng": 103.66601707667314,
+                "lat": 1.2678205310365769
+            },
+            {
+                "id": 7,
+                "flightMissionId": 10,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Down",
+                "batteryLevel": 75,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 12:11:26 GMT+8",
+                "lng": 103.66713339953594,
+                "lat": 1.2681925475370974
+            },
+            {
+                "id": 8,
+                "flightMissionId": 10,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Down",
+                "batteryLevel": 85,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 12:12:26 GMT+8",
+                "lng": 103.66835603886398,
+                "lat": 1.2689897255716005
+            },
+            {
+                "id": 9,
+                "flightMissionId": 10,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Down",
+                "batteryLevel": 95,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 12:13:26 GMT+8",
+                "lng": 103.66931288703245,
+                "lat": 1.2697869033604974
+            },
+            {
+                "id": 10,
+                "flightMissionId": 10,
+                "droneStatus": "OK",
+                "gimbalPosition": "Down",
+                "batteryLevel": 100,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 12:14:26 GMT+8",
+                "lng": 103.67021657696989,
+                "lat": 1.2686708543871248
+            },
+            {
+                "id": 11,
+                "flightMissionId": 10,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Down",
+                "batteryLevel": 15,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 12:15:26 GMT+8",
+                "lng": 103.67085447574937,
+                "lat": 1.2676079501555648
+            },
+            {
+                "id": 12,
+                "flightMissionId": 10,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Down",
+                "batteryLevel": 25,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 12:16:26 GMT+8",
+                "lng": 103.67143921629622,
+                "lat": 1.2667044812152852
+            },
+            {
+                "id": 13,
+                "flightMissionId": 10,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Down",
+                "batteryLevel": 35,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 12:17:26 GMT+8",
+                "lng": 103.67228974800287,
+                "lat": 1.2659073024772738
+            },
+            {
+                "id": 14,
+                "flightMissionId": 10,
+                "droneStatus": "OK",
+                "gimbalPosition": "Down",
+                "batteryLevel": 45,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 12:18:26 GMT+8",
+                "lng": 103.67271501385517,
+                "lat": 1.2650569782197323
+            },
+            {
+                "id": 15,
+                "flightMissionId": 10,
+                "droneStatus": "OK",
+                "gimbalPosition": "Down",
+                "batteryLevel": 55,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 12:19:26 GMT+8",
+                "lng": 103.67421092601239,
+                "lat": 1.2635576903196863
+            },
+            {
+                "description": {
+                    "status": "SUCCESS"
+                },
+                "eventDateTime": "2020-03-2 12:19:27 GMT+8",
+                "flightMissionId": 10,
+                "id": 21
+            }
+        ]
+    },
+    "Mission-11": {
+        "name": "Drone 4 Test Cases",
+        "missionTopic": "/mission/log/test",
+        "topic": "/drone/test",
+        "interval": 1000,
+        "testcases":[
+            {
+                "description": {
+                    "status": "IN_PROGRESS"
+                },
+                "eventDateTime": "2020-03-2 12:05:25 GMT+8",
+                "flightMissionId": 11,
+                "id": 22
+            },
+            {
+                "id": 1,
+                "flightMissionId": 11,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Right",
+                "batteryLevel": 59,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:05:26 GMT+8",
+                "lng": 103.67048984979897,
+                "lat": 1.2609535690457392
+            },
+            {
+                "id": 2,
+                "flightMissionId": 11,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 70,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:06:26 GMT+8",
+                "lng": 103.66942668516708,
+                "lat": 1.2602626792911593
+            },
+            {
+                "id": 3,
+                "flightMissionId": 11,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Right",
+                "batteryLevel": 80,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:07:26 GMT+8",
+                "lng": 103.66889510285114,
+                "lat": 1.2598375162734357
+            },
+            {
+                "id": 4,
+                "flightMissionId": 11,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 90,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:08:26 GMT+8",
+                "lng": 103.66820404584064,
+                "lat": 1.259146626222858
+            },
+            {
+                "id": 5,
+                "flightMissionId": 11,
+                "droneStatus": "OK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 100,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:09:26 GMT+8",
+                "lng": 103.66783193821914,
+                "lat": 1.2589340446320705
+            },
+            {
+                "id": 6,
+                "flightMissionId": 11,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 10,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:10:26 GMT+8",
+                "lng": 103.66708772297625,
+                "lat": 1.2586151722129273
+            },
+            {
+                "id": 7,
+                "flightMissionId": 11,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 20,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:11:26 GMT+8",
+                "lng": 103.6669814065126,
+                "lat": 1.2584557359883064
+            },
+            {
+                "id": 8,
+                "flightMissionId": 11,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 30,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:12:26 GMT+8",
+                "lng": 103.66639666596575,
+                "lat": 1.2579242818376173
+            },
+            {
+                "id": 9,
+                "flightMissionId": 11,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 40,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:13:26 GMT+8",
+                "lng": 103.66559929249172,
+                "lat": 1.257127100408539
+            },
+            {
+                "id": 10,
+                "flightMissionId": 11,
+                "droneStatus": "SYSTEM_ERROR",
+                "gimbalPosition": "Right",
+                "batteryLevel": 50,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:14:26 GMT+8",
+                "lng": 103.66485507724883,
+                "lat": 1.2567550823247302
+            },
+            {
+                "id": 11,
+                "flightMissionId": 11,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Right",
+                "batteryLevel": 70,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:15:26 GMT+8",
+                "lng": 103.66400454554389,
+                "lat": 1.2561704823719566
+            },
+            {
+                "id": 12,
+                "flightMissionId": 11,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Right",
+                "batteryLevel": 80,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:16:26 GMT+8",
+                "lng": 103.66304769737383,
+                "lat": 1.2553733004076548
+            },
+            {
+                "id": 13,
+                "flightMissionId": 11,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 90,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:17:26 GMT+8",
+                "lng": 103.66219716566889,
+                "lat": 1.2546824091756434
+            },
+            {
+                "description": {
+                    "status": "SUCESS"
+                },
+                "eventDateTime": "2020-03-02 12:17:27 GMT+8",
+                "flightMissionId": 11,
+                "id": 23
+            }
+        ]
+    },
+    "Mission-12": {
+        "name": "Drone 5 Test Cases",
+        "missionTopic": "/mission/log/test",
+        "topic": "/drone/test",
+        "interval": 1000,
+        "testcases": [
+            {
+                "description": {
+                    "status": "IN_PROGRESS"
+                },
+                "eventDateTime": "2020-03-02 13:05:26 GMT+8",
+                "flightMissionId": 12,
+                "id": 24
+            },
+            {
+                "id": 1,
+                "flightMissionId": 12,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Right",
+                "batteryLevel": 59,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 13:05:26 GMT+8",
+                "lng": 103.68085241311746,
+                "lat": 1.2539914618811707
+            },
+            {
+                "id": 2,
+                "flightMissionId": 12,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 70,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 13:06:26 GMT+8",
+                "lng": 103.68139443658652,
+                "lat": 1.253165719035934
+            },
+            {
+                "id": 3,
+                "flightMissionId": 12,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Right",
+                "batteryLevel": 80,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 13:07:26 GMT+8",
+                "lng": 103.68178159620766,
+                "lat": 1.252649629625509
+            },
+            {
+                "id": 4,
+                "flightMissionId": 12,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 90,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 13:08:26 GMT+8",
+                "lng": 103.68214294518702,
+                "lat": 1.2521077356347234
+            },
+            {
+                "id": 5,
+                "flightMissionId": 12,
+                "droneStatus": "OK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 100,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 13:09:26 GMT+8",
+                "lng": 103.68281402186221,
+                "lat": 1.2512561877095294
+            },
+            {
+                "id": 6,
+                "flightMissionId": 12,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 10,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 13:10:26 GMT+8",
+                "lng": 103.68330442404749,
+                "lat": 1.2504562484970307
+            },
+            {
+                "id": 7,
+                "flightMissionId": 12,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 20,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 13:11:26 GMT+8",
+                "lng": 103.68418198585914,
+                "lat": 1.2493466549860415
+            },
+            {
+                "id": 8,
+                "flightMissionId": 12,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 30,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 13:12:26 GMT+8",
+                "lng": 103.68482725189244,
+                "lat": 1.248520910678664
+            },
+            {
+                "id": 9,
+                "flightMissionId": 12,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 40,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 13:13:26 GMT+8",
+                "lng": 103.68531765407943,
+                "lat": 1.2475403389763784
+            },
+            {
+                "id": 10,
+                "flightMissionId": 12,
+                "droneStatus": "SYSTEM_ERROR",
+                "gimbalPosition": "Right",
+                "batteryLevel": 50,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 13:14:26 GMT+8",
+                "lng": 103.68557576049307,
+                "lat": 1.2465597669093995
+            },
+            {
+                "description": {
+                    "status": "SUCCESS"
+                },
+                "eventDateTime": "2020-03-02 13:14:27 GMT+8",
+                "flightMissionId": 12,
+                "id": 25
+            }
+        ]
+    },
+    "Mission-13": {
+        "name": "Drone 6 Test Cases",
+        "missionTopic": "/mission/log/test",
+        "topic": "/drone/test",
+        "interval": 1000,
+        "testcases": [
+            {
+                "description": {
+                    "status": "IN_PROGRESS"
+                },
+                "eventDateTime": "2020-03-02 14:05:26 GMT+8",
+                "flightMissionId": 13,
+                "id": 26
+            },
+            {
+                "id": 1,
+                "flightMissionId": 13,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Right",
+                "batteryLevel": 59,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 14:05:26 GMT+8",
+                "lng": 103.68494625072049,
+                "lat": 1.2714397687758208
+            },
+            {
+                "id": 2,
+                "flightMissionId": 13,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 70,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 14:06:26 GMT+8",
+                "lng": 103.68556746158731,
+                "lat": 1.2704736784938433
+            },
+            {
+                "id": 3,
+                "flightMissionId": 13,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Right",
+                "batteryLevel": 80,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 14:07:26 GMT+8",
+                "lng": 103.68636123102976,
+                "lat": 1.2694385813621096
+            },
+            {
+                "id": 4,
+                "flightMissionId": 13,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 90,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 14:05:26 GMT+8",
+                "lng": 103.68743109419222,
+                "lat": 1.2680239479446698
+            },
+            {
+                "id": 5,
+                "flightMissionId": 13,
+                "droneStatus": "OK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 100,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 14:07:26 GMT+8",
+                "lng": 103.68839742221019,
+                "lat": 1.2668163334405307
+            },
+            {
+                "id": 6,
+                "flightMissionId": 13,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 10,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 14:08:26 GMT+8",
+                "lng": 103.68943277365702,
+                "lat": 1.266229777620893
+            },
+            {
+                "id": 7,
+                "flightMissionId": 13,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 20,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 14:09:26 GMT+8",
+                "lng": 103.6902955665305,
+                "lat": 1.2661607710449658
+            },
+            {
+                "id": 8,
+                "flightMissionId": 13,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 30,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 14:10:26 GMT+8",
+                "lng": 103.69133091797744,
+                "lat": 1.2661952743336684
+            },
+            {
+                "id": 9,
+                "flightMissionId": 13,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 40,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 14:11:26 GMT+8",
+                "lng": 103.69236626942438,
+                "lat": 1.2663332874807907
+            },
+            {
+                "id": 10,
+                "flightMissionId": 13,
+                "droneStatus": "SYSTEM_ERROR",
+                "gimbalPosition": "Right",
+                "batteryLevel": 50,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 14:12:26 GMT+8",
+                "lng": 103.69412636688469,
+                "lat": 1.2661952743336684
+            },
+            {
+                "id": 11,
+                "flightMissionId": 13,
+                "droneStatus": "SYSTEM_ERROR",
+                "gimbalPosition": "Right",
+                "batteryLevel": 50,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 14:13:26 GMT+8",
+                "lng": 103.69519623004498,
+                "lat": 1.2656777249641777
+            },
+            {
+                "id": 12,
+                "flightMissionId": 13,
+                "droneStatus": "SYSTEM_ERROR",
+                "gimbalPosition": "Right",
+                "batteryLevel": 50,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 14:14:26 GMT+8",
+                "lng": 103.69678376893194,
+                "lat": 1.2651946787923265
+            },
+            {
+                "description": {
+                    "status": "SUCCESS"
+                },
+                "eventDateTime": "2020-03-02 14:14:27 GMT+8",
+                "flightMissionId": 13,
+                "id": 27
+            }
+        ]
+    },
+    "Mission-14": {
+        "name": "Drone 0 Test Cases",
+        "missionTopic": "/mission/log/test",
+        "topic": "/drone/test",
+        "interval": 1000,
+        "testcases": [
+            {
+                "description": {
+                    "status": "IN_PROGRESS"
+                },
+                "eventDateTime": "2020-03-02 12:05:25 GMT+8",
+                "flightMissionId": 14,
+                "id": 28
+            },
+            {
+                "id": 1,
+                "flightMissionId": 14,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Right",
+                "batteryLevel": 59,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:05:26 GMT+8",
+                "lng": 103.72156594720013,
+                "lat": 1.2768465408072416
+            },
+            {
+                "id": 2,
+                "flightMissionId": 14,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 70,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:07:26 GMT+8",
+                "lng": 103.72229069321361,
+                "lat": 1.2761564778047756
+            },
+            {
+                "id": 3,
+                "flightMissionId": 14,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Right",
+                "batteryLevel": 80,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:08:26 GMT+8",
+                "lng": 103.72280836893606,
+                "lat": 1.2755699241069323
+            },
+            {
+                "id": 4,
+                "flightMissionId": 14,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 90,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:09:26 GMT+8",
+                "lng": 103.72349860323402,
+                "lat": 1.275086879784567
+            },
+            {
+                "id": 5,
+                "flightMissionId": 14,
+                "droneStatus": "OK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 100,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:10:26 GMT+8",
+                "lng": 103.72405079067403,
+                "lat": 1.2743968163101727
+            },
+            {
+                "id": 6,
+                "flightMissionId": 14,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 10,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:11:26 GMT+8",
+                "lng": 103.72501711868995,
+                "lat": 1.273568739896561
+            },
+            {
+                "id": 7,
+                "flightMissionId": 14,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 20,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:12:26 GMT+8",
+                "lng": 103.72536223583882,
+                "lat": 1.273223707979156
+            },
+            {
+                "id": 8,
+                "flightMissionId": 14,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 30,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:13:26 GMT+8",
+                "lng": 103.72601795842331,
+                "lat": 1.2724301343941136
+            },
+            {
+                "description": {
+                    "status": "SUCCESS"
+                },
+                "eventDateTime": "2020-03-02 12:13:27 GMT+8",
+                "flightMissionId": 14,
+                "id": 29
+            }
+        ]
+    },
+    "Mission-15": {
+        "name": "Drone 1 Test Cases",
+        "missionTopic": "/mission/log/test",
+        "topic": "/drone/test",
+        "interval": 1000,
+        "testcases":[
+            {
+                "description": {
+                    "status": "IN_PROGRESS"
+                },
+                "eventDateTime": "2020-03-02 13:05:26 GMT+8",
+                "flightMissionId": 15,
+                "id": 30
+            },
+            {
+                "id": 1,
+                "flightMissionId": 15,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Down",
+                "batteryLevel": 5,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 15:05:26 GMT+8",
+                "lng": 103.66301556071335,
+                "lat": 1.2717379871359498
+            },
+            {
+                "id": 2,
+                "flightMissionId": 15,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Down",
+                "batteryLevel": 25,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 15:06:26 GMT+8",
+                "lng": 103.66389074740914,
+                "lat": 1.270690371224262
+            },
+            {
+                "id": 3,
+                "flightMissionId": 15,
+                "droneStatus": "OK",
+                "gimbalPosition": "Down",
+                "batteryLevel": 35,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 15:07:26 GMT+8",
+                "lng": 103.66426285502905,
+                "lat": 1.2698931937140827
+            },
+            {
+                "id": 4,
+                "flightMissionId": 15,
+                "droneStatus": "OK",
+                "gimbalPosition": "Down",
+                "batteryLevel": 45,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 15:08:26 GMT+8",
+                "lng": 103.66495391204103,
+                "lat": 1.2692554515285366
+            },
+            {
+                "id": 5,
+                "flightMissionId": 15,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Down",
+                "batteryLevel": 55,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 15:09:26 GMT+8",
+                "lng": 103.66527286143003,
+                "lat": 1.2687239995873938
+            },
+            {
+                "id": 6,
+                "flightMissionId": 15,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Down",
+                "batteryLevel": 65,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 15:10:26 GMT+8",
+                "lng": 103.66601707667314,
+                "lat": 1.2678205310365769
+            },
+            {
+                "id": 7,
+                "flightMissionId": 15,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Down",
+                "batteryLevel": 75,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 15:11:26 GMT+8",
+                "lng": 103.66713339953594,
+                "lat": 1.2681925475370974
+            },
+            {
+                "id": 8,
+                "flightMissionId": 15,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Down",
+                "batteryLevel": 85,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 15:12:26 GMT+8",
+                "lng": 103.66835603886398,
+                "lat": 1.2689897255716005
+            },
+            {
+                "id": 9,
+                "flightMissionId": 15,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Down",
+                "batteryLevel": 95,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 15:13:26 GMT+8",
+                "lng": 103.66931288703245,
+                "lat": 1.2697869033604974
+            },
+            {
+                "id": 10,
+                "flightMissionId": 15,
+                "droneStatus": "OK",
+                "gimbalPosition": "Down",
+                "batteryLevel": 100,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 15:14:26 GMT+8",
+                "lng": 103.67021657696989,
+                "lat": 1.2686708543871248
+            },
+            {
+                "id": 11,
+                "flightMissionId": 15,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Down",
+                "batteryLevel": 15,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 15:15:26 GMT+8",
+                "lng": 103.67085447574937,
+                "lat": 1.2676079501555648
+            },
+            {
+                "id": 12,
+                "flightMissionId": 15,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Down",
+                "batteryLevel": 25,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 15:16:26 GMT+8",
+                "lng": 103.67143921629622,
+                "lat": 1.2667044812152852
+            },
+            {
+                "id": 13,
+                "flightMissionId": 15,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Down",
+                "batteryLevel": 35,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 15:17:26 GMT+8",
+                "lng": 103.67228974800287,
+                "lat": 1.2659073024772738
+            },
+            {
+                "id": 14,
+                "flightMissionId": 15,
+                "droneStatus": "OK",
+                "gimbalPosition": "Down",
+                "batteryLevel": 45,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 15:18:26 GMT+8",
+                "lng": 103.67271501385517,
+                "lat": 1.2650569782197323
+            },
+            {
+                "id": 15,
+                "flightMissionId": 15,
+                "droneStatus": "OK",
+                "gimbalPosition": "Down",
+                "batteryLevel": 55,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 15:19:26 GMT+8",
+                "lng": 103.67421092601239,
+                "lat": 1.2635576903196863
+            },
+            {
+                "description": {
+                    "status": "FAILED"
+                },
+                "eventDateTime": "2020-03-2 15:19:27 GMT+8",
+                "flightMissionId": 15,
+                "id": 31
+            }
+        ]
+    },
+    "Mission-16": {
+        "name": "Drone 2 Test Cases",
+        "missionTopic": "/mission/log/test",
+        "topic": "/drone/test",
+        "interval": 1000,
+        "testcases":[
+            {
+                "description": {
+                    "status": "IN_PROGRESS"
+                },
+                "eventDateTime": "2020-03-2 13:05:25 GMT+8",
+                "flightMissionId": 16,
+                "id": 32
+            },
+            {
+                "id": 1,
+                "flightMissionId": 16,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Right",
+                "batteryLevel": 59,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 13:05:26 GMT+8",
+                "lng": 103.67048984979897,
+                "lat": 1.2609535690457392
+            },
+            {
+                "id": 2,
+                "flightMissionId": 16,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 70,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 13:06:26 GMT+8",
+                "lng": 103.66942668516708,
+                "lat": 1.2602626792911593
+            },
+            {
+                "id": 3,
+                "flightMissionId": 16,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Right",
+                "batteryLevel": 80,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:07:26 GMT+8",
+                "lng": 103.66889510285114,
+                "lat": 1.2598375162734357
+            },
+            {
+                "id": 4,
+                "flightMissionId": 16,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 90,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:08:26 GMT+8",
+                "lng": 103.66820404584064,
+                "lat": 1.259146626222858
+            },
+            {
+                "id": 5,
+                "flightMissionId": 16,
+                "droneStatus": "OK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 100,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:09:26 GMT+8",
+                "lng": 103.66783193821914,
+                "lat": 1.2589340446320705
+            },
+            {
+                "id": 6,
+                "flightMissionId": 16,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 10,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:10:26 GMT+8",
+                "lng": 103.66708772297625,
+                "lat": 1.2586151722129273
+            },
+            {
+                "id": 7,
+                "flightMissionId": 16,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 20,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:11:26 GMT+8",
+                "lng": 103.6669814065126,
+                "lat": 1.2584557359883064
+            },
+            {
+                "id": 8,
+                "flightMissionId": 16,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 30,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:12:26 GMT+8",
+                "lng": 103.66639666596575,
+                "lat": 1.2579242818376173
+            },
+            {
+                "id": 9,
+                "flightMissionId": 16,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 40,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:13:26 GMT+8",
+                "lng": 103.66559929249172,
+                "lat": 1.257127100408539
+            },
+            {
+                "id": 10,
+                "flightMissionId": 16,
+                "droneStatus": "SYSTEM_ERROR",
+                "gimbalPosition": "Right",
+                "batteryLevel": 50,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:14:26 GMT+8",
+                "lng": 103.66485507724883,
+                "lat": 1.2567550823247302
+            },
+            {
+                "id": 11,
+                "flightMissionId": 16,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Right",
+                "batteryLevel": 70,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:15:26 GMT+8",
+                "lng": 103.66400454554389,
+                "lat": 1.2561704823719566
+            },
+            {
+                "id": 12,
+                "flightMissionId": 16,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Right",
+                "batteryLevel": 80,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:16:26 GMT+8",
+                "lng": 103.66304769737383,
+                "lat": 1.2553733004076548
+            },
+            {
+                "id": 13,
+                "flightMissionId": 16,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 90,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:17:26 GMT+8",
+                "lng": 103.66219716566889,
+                "lat": 1.2546824091756434
+            },
+            {
+                "description": {
+                    "status": "SUCESS"
+                },
+                "eventDateTime": "2020-03-02 11:17:27 GMT+8",
+                "flightMissionId": 16,
+                "id": 33
+            }
+        ]
+    },
+    
+    "Mission-17": {
+        "name": "Drone 3 Test Cases",
+        "missionTopic": "/mission/log/test",
+        "topic": "/drone/test",
+        "interval": 1000,
+        "testcases":[
+            {
+                "description": {
+                    "status": "IN_PROGRESS"
+                },
+                "eventDateTime": "2020-03-02 11:05:26 GMT+8",
+                "flightMissionId": 17,
+                "id": 34
+            },
+            {
+                "id": 1,
+                "flightMissionId": 17,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Right",
+                "batteryLevel": 59,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:05:26 GMT+8",
+                "lng": 103.68085241311746,
+                "lat": 1.2539914618811707
+            },
+            {
+                "id": 2,
+                "flightMissionId": 17,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 70,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:06:26 GMT+8",
+                "lng": 103.68139443658652,
+                "lat": 1.253165719035934
+            },
+            {
+                "id": 3,
+                "flightMissionId": 17,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Right",
+                "batteryLevel": 80,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:07:26 GMT+8",
+                "lng": 103.68178159620766,
+                "lat": 1.252649629625509
+            },
+            {
+                "id": 4,
+                "flightMissionId": 17,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 90,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:08:26 GMT+8",
+                "lng": 103.68214294518702,
+                "lat": 1.2521077356347234
+            },
+            {
+                "id": 5,
+                "flightMissionId": 17,
+                "droneStatus": "OK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 100,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:09:26 GMT+8",
+                "lng": 103.68281402186221,
+                "lat": 1.2512561877095294
+            },
+            {
+                "id": 6,
+                "flightMissionId": 17,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 10,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:10:26 GMT+8",
+                "lng": 103.68330442404749,
+                "lat": 1.2504562484970307
+            },
+            {
+                "id": 7,
+                "flightMissionId": 17,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 20,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:11:26 GMT+8",
+                "lng": 103.68418198585914,
+                "lat": 1.2493466549860415
+            },
+            {
+                "id": 8,
+                "flightMissionId": 17,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 30,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:12:26 GMT+8",
+                "lng": 103.68482725189244,
+                "lat": 1.248520910678664
+            },
+            {
+                "id": 9,
+                "flightMissionId": 17,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 40,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:13:26 GMT+8",
+                "lng": 103.68531765407943,
+                "lat": 1.2475403389763784
+            },
+            {
+                "id": 10,
+                "flightMissionId": 17,
+                "droneStatus": "SYSTEM_ERROR",
+                "gimbalPosition": "Right",
+                "batteryLevel": 50,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:14:26 GMT+8",
+                "lng": 103.68557576049307,
+                "lat": 1.2465597669093995
+            },
+            {
+                "description": {
+                    "status": "SUCCESS"
+                },
+                "eventDateTime": "2020-03-02 11:14:27 GMT+8",
+                "flightMissionId": 17,
+                "id": 35
+            }
+        
+        ]
+    },
+    
+    "Mission-18": {
+        "name": "Drone 4 Test Cases",
+        "missionTopic": "/mission/log/test",
+        "topic": "/drone/test",
+        "interval": 1000,
+        "testcases":[
+              {
+                "description": {
+                    "status": "IN_PROGRESS"
+                },
+                "eventDateTime": "2020-03-02 12:05:26 GMT+8",
+                "flightMissionId": 18,
+                "id": 36
+            },
+            {
+                "id": 1,
+                "flightMissionId": 18,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Right",
+                "batteryLevel": 59,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:05:26 GMT+8",
+                "lng": 103.68494625072049,
+                "lat": 1.2714397687758208
+            },
+            {
+                "id": 2,
+                "flightMissionId": 18,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 70,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:06:26 GMT+8",
+                "lng": 103.68556746158731,
+                "lat": 1.2704736784938433
+            },
+            {
+                "id": 3,
+                "flightMissionId": 18,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Right",
+                "batteryLevel": 80,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:07:26 GMT+8",
+                "lng": 103.68636123102976,
+                "lat": 1.2694385813621096
+            },
+            {
+                "id": 4,
+                "flightMissionId": 18,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 90,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:05:26 GMT+8",
+                "lng": 103.68743109419222,
+                "lat": 1.2680239479446698
+            },
+            {
+                "id": 5,
+                "flightMissionId": 18,
+                "droneStatus": "OK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 100,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:07:26 GMT+8",
+                "lng": 103.68839742221019,
+                "lat": 1.2668163334405307
+            },
+            {
+                "id": 6,
+                "flightMissionId": 18,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 10,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:08:26 GMT+8",
+                "lng": 103.68943277365702,
+                "lat": 1.266229777620893
+            },
+            {
+                "id": 7,
+                "flightMissionId": 18,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 20,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:09:26 GMT+8",
+                "lng": 103.6902955665305,
+                "lat": 1.2661607710449658
+            },
+            {
+                "id": 8,
+                "flightMissionId": 18,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 30,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:10:26 GMT+8",
+                "lng": 103.69133091797744,
+                "lat": 1.2661952743336684
+            },
+            {
+                "id": 9,
+                "flightMissionId": 18,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 40,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:11:26 GMT+8",
+                "lng": 103.69236626942438,
+                "lat": 1.2663332874807907
+            },
+            {
+                "id": 10,
+                "flightMissionId": 18,
+                "droneStatus": "SYSTEM_ERROR",
+                "gimbalPosition": "Right",
+                "batteryLevel": 50,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:12:26 GMT+8",
+                "lng": 103.69412636688469,
+                "lat": 1.2661952743336684
+            },
+            {
+                "id": 11,
+                "flightMissionId": 18,
+                "droneStatus": "SYSTEM_ERROR",
+                "gimbalPosition": "Right",
+                "batteryLevel": 50,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:13:26 GMT+8",
+                "lng": 103.69519623004498,
+                "lat": 1.2656777249641777
+            },
+            {
+                "id": 12,
+                "flightMissionId": 18,
+                "droneStatus": "SYSTEM_ERROR",
+                "gimbalPosition": "Right",
+                "batteryLevel": 50,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 12:14:26 GMT+8",
+                "lng": 103.69678376893194,
+                "lat": 1.2651946787923265
+            },
+            {
+                "description": {
+                    "status": "SUCCESS"
+                },
+                "eventDateTime": "2020-03-02 12:14:27 GMT+8",
+                "flightMissionId": 18,
+                "id": 37
+            }
+        ]
+    },
+    "Mission-19": {
+        "name": "Drone 5 Test Cases",
+        "missionTopic": "/mission/log/test",
+        "topic": "/drone/test",
+        "interval": 1000,
+        "testcases":[
+            {
+                "description": {
+                    "status": "IN_PROGRESS"
+                },
+                "eventDateTime": "2020-03-02 11:05:25 GMT+8",
+                "flightMissionId": 19,
+                "id": 38
+            },
+            {
+                "id": 1,
+                "flightMissionId": 19,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Right",
+                "batteryLevel": 59,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:05:26 GMT+8",
+                "lng": 103.72156594720013,
+                "lat": 1.2768465408072416
+            },
+            {
+                "id": 2,
+                "flightMissionId": 19,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 70,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:07:26 GMT+8",
+                "lng": 103.72229069321361,
+                "lat": 1.2761564778047756
+            },
+            {
+                "id": 3,
+                "flightMissionId": 19,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Right",
+                "batteryLevel": 80,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:08:26 GMT+8",
+                "lng": 103.72280836893606,
+                "lat": 1.2755699241069323
+            },
+            {
+                "id": 4,
+                "flightMissionId": 19,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 90,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:09:26 GMT+8",
+                "lng": 103.72349860323402,
+                "lat": 1.275086879784567
+            },
+            {
+                "id": 5,
+                "flightMissionId": 19,
+                "droneStatus": "OK",
+                "gimbalPosition": "Right",
+                "batteryLevel": 100,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:10:26 GMT+8",
+                "lng": 103.72405079067403,
+                "lat": 1.2743968163101727
+            },
+            {
+                "id": 6,
+                "flightMissionId": 19,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 10,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:11:26 GMT+8",
+                "lng": 103.72501711868995,
+                "lat": 1.273568739896561
+            },
+            {
+                "id": 7,
+                "flightMissionId": 19,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 20,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:12:26 GMT+8",
+                "lng": 103.72536223583882,
+                "lat": 1.273223707979156
+            },
+            {
+                "id": 8,
+                "flightMissionId": 19,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Right",
+                "batteryLevel": 30,
+                "altitude": 278,
+                "eventDateTime": "2020-03-02 11:13:26 GMT+8",
+                "lng": 103.72601795842331,
+                "lat": 1.2724301343941136
+            },
+            {
+                "description": {
+                    "status": "SUCCESS"
+                },
+                "eventDateTime": "2020-03-02 11:13:27 GMT+8",
+                "flightMissionId": 19,
+                "id": 39
+            }
+        ]
+    },
+    "Mission-20": {
+        "name": "Drone 6 Test Cases",
+        "missionTopic": "/mission/log/test",
+        "topic": "/drone/test",
+        "interval": 1000,
+        "testcases":[
+            {
+                "description": {
+                    "status": "IN_PROGRESS"
+                },
+                "eventDateTime": "2020-03-02 12:05:26 GMT+8",
+                "flightMissionId": 20,
+                "id": 40
+            },
+            {
+                "id": 1,
+                "flightMissionId": 20,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Down",
+                "batteryLevel": 5,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 12:05:26 GMT+8",
+                "lng": 103.66301556071335,
+                "lat": 1.2717379871359498
+            },
+            {
+                "id": 2,
+                "flightMissionId": 20,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Down",
+                "batteryLevel": 25,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 12:06:26 GMT+8",
+                "lng": 103.66389074740914,
+                "lat": 1.270690371224262
+            },
+            {
+                "id": 3,
+                "flightMissionId": 20,
+                "droneStatus": "OK",
+                "gimbalPosition": "Down",
+                "batteryLevel": 35,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 12:07:26 GMT+8",
+                "lng": 103.66426285502905,
+                "lat": 1.2698931937140827
+            },
+            {
+                "id": 4,
+                "flightMissionId": 20,
+                "droneStatus": "OK",
+                "gimbalPosition": "Down",
+                "batteryLevel": 45,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 12:08:26 GMT+8",
+                "lng": 103.66495391204103,
+                "lat": 1.2692554515285366
+            },
+            {
+                "id": 5,
+                "flightMissionId": 20,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Down",
+                "batteryLevel": 55,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 12:09:26 GMT+8",
+                "lng": 103.66527286143003,
+                "lat": 1.2687239995873938
+            },
+            {
+                "id": 6,
+                "flightMissionId": 20,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Down",
+                "batteryLevel": 65,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 12:10:26 GMT+8",
+                "lng": 103.66601707667314,
+                "lat": 1.2678205310365769
+            },
+            {
+                "id": 7,
+                "flightMissionId": 20,
+                "droneStatus": "POOR_NETWORK",
+                "gimbalPosition": "Down",
+                "batteryLevel": 75,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 12:11:26 GMT+8",
+                "lng": 103.66713339953594,
+                "lat": 1.2681925475370974
+            },
+            {
+                "id": 8,
+                "flightMissionId": 20,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Down",
+                "batteryLevel": 85,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 12:12:26 GMT+8",
+                "lng": 103.66835603886398,
+                "lat": 1.2689897255716005
+            },
+            {
+                "id": 9,
+                "flightMissionId": 20,
+                "droneStatus": "POOR_GPS",
+                "gimbalPosition": "Down",
+                "batteryLevel": 95,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 12:13:26 GMT+8",
+                "lng": 103.66931288703245,
+                "lat": 1.2697869033604974
+            },
+            {
+                "id": 10,
+                "flightMissionId": 20,
+                "droneStatus": "OK",
+                "gimbalPosition": "Down",
+                "batteryLevel": 100,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 12:14:26 GMT+8",
+                "lng": 103.67021657696989,
+                "lat": 1.2686708543871248
+            },
+            {
+                "id": 11,
+                "flightMissionId": 20,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Down",
+                "batteryLevel": 15,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 12:15:26 GMT+8",
+                "lng": 103.67085447574937,
+                "lat": 1.2676079501555648
+            },
+            {
+                "id": 12,
+                "flightMissionId": 20,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Down",
+                "batteryLevel": 25,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 12:16:26 GMT+8",
+                "lng": 103.67143921629622,
+                "lat": 1.2667044812152852
+            },
+            {
+                "id": 13,
+                "flightMissionId": 20,
+                "droneStatus": "LOW_BATTERY",
+                "gimbalPosition": "Down",
+                "batteryLevel": 35,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 12:17:26 GMT+8",
+                "lng": 103.67228974800287,
+                "lat": 1.2659073024772738
+            },
+            {
+                "id": 14,
+                "flightMissionId": 20,
+                "droneStatus": "OK",
+                "gimbalPosition": "Down",
+                "batteryLevel": 45,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 12:18:26 GMT+8",
+                "lng": 103.67271501385517,
+                "lat": 1.2650569782197323
+            },
+            {
+                "id": 15,
+                "flightMissionId": 20,
+                "droneStatus": "OK",
+                "gimbalPosition": "Down",
+                "batteryLevel": 55,
+                "altitude": 483,
+                "eventDateTime": "2020-03-02 12:19:26 GMT+8",
+                "lng": 103.67421092601239,
+                "lat": 1.2635576903196863
+            },
+            {
+                "description": {
+                    "status": "SUCCESS"
+                },
+                "eventDateTime": "2020-03-2 12:19:27 GMT+8",
+                "flightMissionId": 20,
+                "id": 41
+            }
+        ]
     }
+    
 }

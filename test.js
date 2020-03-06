@@ -1,5 +1,4 @@
 let mission;
-let isAbort;
 function setting(data) {
     let dockArr = data;
     for (const prop in dockArr) {
@@ -25,13 +24,6 @@ function setting(data) {
                     dockArr[prop].interval
                 );
             }
-
-            // publishFunction(
-            //     dockArr[prop].topic,
-            //     dockArr[prop].testcases,
-            //     prop,
-            //     dockArr[prop].interval
-            // );
         });
         $("#data").append(btn);
     }
@@ -65,6 +57,7 @@ function sendMessage(topic, testcases, prop, interval) {
 function receiveMessage() {
     window.addEventListener("message", function(event) {
         if (event.data.mtopic === undefined) {
+            abortMission(event.data.topic+event.data.prop)
             publishFunction(
                 event.data.topic,
                 event.data.testcases,
@@ -72,6 +65,7 @@ function receiveMessage() {
                 event.data.interval
             );
         } else {
+            abortMission(event.data.mtopic+event.data.prop);
             publishMission(
                 event.data.topic,
                 event.data.mtopic,
@@ -83,18 +77,34 @@ function receiveMessage() {
     });
 }
 
-function abort() {
-    client.publish('/abort','abort');
+
+
+function abortMission(currentTopic){
+    client.subscribe(`${currentTopic}`);
+    client.on('message',(topic,message)=>{    
+    if(message.toString() === 'abort' && topic === currentTopic)
+    {
+    console.log(topic)
+    isAbort = true;
+    console.log('Aborting Detected')
+    }
+    })
+    let btn = $(
+        ` <button type="button" class="btn btn-danger btn-lg" style="padding: 10px 50px;" onclick="abort('${currentTopic}')">Abort</button>`
+    );
+    $("#data").append(btn);
+}
+
+function abort(currentTopic) {
+    client.publish(currentTopic,'abort');
 }
 
 function publishMission(topic, mtopic, subscribeFunction, log, time) {
     // alert("MQTT Broadcasting " + log + " Data");
-
     isAbort = false;
     console.log("MQTT Broadcasting " + log + " Data");
     counter = 1;
     client.publish(mtopic, JSON.stringify(subscribeFunction[0]));
-    console.log(mtopic);
     console.log(subscribeFunction[0]);
 
     let timer = setInterval(() => {
@@ -136,18 +146,17 @@ function publishMission(topic, mtopic, subscribeFunction, log, time) {
                 timeZoneName: "short"
             });
             client.publish(mtopic, JSON.stringify(subscribeFunction[count]));
-            let txt = $(`<p>${JSON.stringify(subscribeFunction[count])}</p>`);
+            let txt = $(`<p>Mission Log: ${JSON.stringify(subscribeFunction[count])}</p>`);
             $("#data").append(txt);
-            log = count - 1;
-            subscribeFunction[log].id = counter;
+            logCount = count - 1;
+            subscribeFunction[logCount].id = counter;
             subscribeFunction[
-                log
+                logCount
             ].eventDateTime = new Date().toLocaleString("sv", {
                 timeZoneName: "short"
             });
             client.publish(topic, JSON.stringify(subscribeFunction[log]));
-            console.log("MQTT Broadcasting " + log + " Aborted");
-            txt = $(`<p>${JSON.stringify(subscribeFunction[log])}</p>`);
+            txt = $(`<p>Drone abort to E-Land: ${JSON.stringify(subscribeFunction[logCount])}</p>`);
             $("#data").append(txt);
             let progressed = 100;
             $("#moving-progress-bar")
@@ -156,9 +165,11 @@ function publishMission(topic, mtopic, subscribeFunction, log, time) {
                 .attr("aria-valuenow", progressed)
 
                 .text("Publishing " + progressed + "% progress");
+                console.log("MQTT Broadcasting " + log + " Aborted");
         }
     }, time);
 }
+
 
 function publishFunction(topic, subscribeFunction, log, time) {
     isAbort = false;
@@ -188,6 +199,8 @@ function publishFunction(topic, subscribeFunction, log, time) {
             }
         } else if (isAbort) {
             clearInterval(timer);
+            let txt = $(`<p>${log} has been adort</p>`);
+
             $("#data").append(txt);
             let progressed = 100;
             $("#moving-progress-bar")
