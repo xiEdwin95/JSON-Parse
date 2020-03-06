@@ -14,7 +14,7 @@
     </head>
 
     <body>
-        <h1 class="display-1">Mission Publisher</h1>
+        <h1 class="display-1">Log Publisher</h1>
         <script
             src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
             integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -34,12 +34,22 @@
         <script src="https://unpkg.com/mqtt@2.12.0/dist/mqtt.min.js"></script>
         <script>
             var client = mqtt.connect("ws://broker.mqttdashboard.com:8000/mqtt");
+           
+            client.subscribe('/abort');
+            client.on('message',(topic,message)=>{
+            if(message.toString() === 'abort')
+            {
+            isAbort = true;
+            console.log('Aborting Detected')
+            }
+    })
             receiveMessage();
+       
         </script>
         </div>
         <div id="data"></div>
         <br />
-        <div class="container">
+        <div class="container" style="margin: 10px;">
             <div class="progress" style="height: 30px;">
                 <div
                     id="moving-progress-bar"
@@ -50,6 +60,8 @@
                     aria-valuemax="100"
                 ></div>
             </div>
+            <br>
+            <button type="button" class="btn btn-danger btn-lg" style="padding: 10px 50px;" onclick="abort()">Abort</button>
         </div>
     </body>
 </html>
