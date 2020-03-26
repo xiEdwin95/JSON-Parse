@@ -155,7 +155,7 @@ function publishMission(topic, mtopic, subscribeFunction, log, time) {
             ].eventDateTime = new Date().toLocaleString("sv", {
                 timeZoneName: "short"
             });
-            client.publish(topic, JSON.stringify(subscribeFunction[log]));
+            client.publish(topic, JSON.stringify(subscribeFunction[logCount]));
             txt = $(`<p>Drone abort to E-Land: ${JSON.stringify(subscribeFunction[logCount])}</p>`);
             $("#data").append(txt);
             let progressed = 100;
